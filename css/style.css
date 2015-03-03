@@ -1,0 +1,21 @@
+@import 'bootstrap.css';
+@import 'carousel.css';
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
+html {
+	font-size: 16px !important;
+}
+body {
+	font-size: 1rem;
+}
+.oswald {
+	font-family: 'Oswald', sans-serif;
+}
+.oswald300 {
+	font-weight: 300;
+}
+.oswald400 {
+	font-weight: 400;
+}
+.oswald700 {
+	font-weight: 700;
+}
