@@ -1,3 +1,5 @@
+# http://bit.ly/cesvi
 # http://www.cesvimexico.com.mx/
+
 
 Reparación automotriz,Manejo Defensivo,Seguridad Vial,Evaluación de riesgos en Flotillas,Campañas de Educación Vial,Reconstrucción de accidentes de tránsito,Década de la seguridad vial,Dictámenes técnicos,Manejo Seguro,Consultoría flotillas,Consultoría para compañías de seguros,Consultoría para talleres,Capacitación para compañías de seguros,Plan de talleres,Talleres de reparación automotriz,Disminución de siniestralidad,Crash test,Capacitación para talleres de hojalatería y pintura,Guía de deslinde,Talleres de Equipo Pesado,Valuación de automóviles,Tabuladores de reparación,Curso virtuales para aseguradoras,Cesviteca,Identificación Vehicular,Certificación de Talleres,Certificación de Localizadores,Evaluación de talleres,Certificación CMX2009
