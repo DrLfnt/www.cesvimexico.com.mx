@@ -39,3 +39,6 @@ body {
 .oswald700 {
 	font-weight: 700;
 }
+.outline-slides {
+    text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
