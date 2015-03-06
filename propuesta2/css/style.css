@@ -20,3 +20,15 @@ body {
 .oswald700 {
 	font-weight: 700;
 }
+.bg-partners{
+	background: #E8ECEB;
+}
+.max-height {
+	max-height: 90px;
+}
+.bg-footer {
+	background: #00529B;
+}
+.white{
+	color: #fff !important;
+}
