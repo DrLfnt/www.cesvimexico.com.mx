@@ -44,16 +44,16 @@ body {
   padding: 5px 22px 5px;
 }
 .hr {
-    margin: 0;
-    padding: 0;
-    padding-bottom: 15px;
-    height: 10px;
-    background-image: url('images/pleca_cesvi.jpg');
-    background-repeat: repeat-x;
+    margin: 0 !important;
+    padding: 0 !important;
+    padding-bottom: 15px !important;
+    height: 10px !important;
+    background-image: url('../images/pleca_cesvi.jpg') !important;
+    background-repeat: repeat-x !important;
 
 }
 .pleca-cesvi {
-  background: url('images/pleca_cesvi.jpg') repeat-y ;
+  background: url('../images/pleca_cesvi.jpg') repeat-y  !important;
 }
 .icondim {
   width:50px;
@@ -63,6 +63,7 @@ body {
   text-decoration: none;
   color: inherit;
 }
+/*
 .topShadowInset {
     -webkit-box-shadow: inset 0px 2px 5px 0px rgba(50, 50, 50, 0.5);
     -moz-box-shadow:    inset 0px 2px 5px 0px rgba(50, 50, 50, 0.5);
@@ -73,6 +74,7 @@ body {
     -moz-box-shadow:    inset 0px -2px 5px 0px rgba(50, 50, 50, 0.5);
     box-shadow:         inset 0px -2px 5px 0px rgba(50, 50, 50, 0.5);
 }
+*/
 .carruselCajaParent {
     background-color: lightgray;
 }
