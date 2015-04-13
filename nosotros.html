@@ -1,726 +1,459 @@
 <!DOCTYPE html>
 <html lang="es_MX">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
-    <meta name="theme-color" content="#F1CE1D" />
-    <meta http-equiv="refresh" content="1600" />
-    <meta name="author" content="Rafael Ramírez | Argenis Oldair Palacios @DrLfnt" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta http-equiv="cleartype" content="on" />
-    <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="msapplication-TileImage" content="images/icons/icon.png">
-    <meta name="msapplication-TileColor" content="#F1CE1D">
-    <meta name="HandheldFriendly" content="true" />
-    <meta name="MobileOptimized" content="320" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui" />
-    <meta name="description" content="Reparación automotriz, Manejo Defensivo, Seguridad Vial, Evaluación de riesgos en Flotillas, Campañas de Educación Vial, Reconstrucción de accidentes de tránsito, Década de la seguridad vial, Dictámenes técnicos, Manejo Seguro, Consultoría flotillas, Consultoría para compañías de seguros, Consultoría para talleres, Capacitación para compañías de seguros, Plan de talleres, Talleres de reparación automotriz, Disminución de siniestralidad, Crash test, Capacitación para talleres de hojalatería y pintura, Guía de deslinde, Talleres de Equipo Pesado, Valuación de automóviles, Tabuladores de reparación, Curso virtuales para aseguradoras, Cesviteca, Identificación Vehicular, Certificación de Talleres, Certificación de Localizadores, Evaluación de talleres, Certificación CMX2009"
-    />
-    <meta name="application-name" content="CESVI MEXICO" />
-    <meta name="apple-mobile-web-app-title" content="CESVI MEXICO" />
-    <title>CESVI MEXICO</title>
-    <link href="css/style.css" rel="stylesheet">
-    <!--[if lt IE 9]> <script src="js/html5shiv.js"></script> <script src="js/respond.min.js"></script><![endif]-->
-    <link rel="shortcut icon" href="images/icons/favicon.ico">
-    <link rel="icon" href="images/icons/favicon.ico">
-    <link rel="icon" sizes="196x196" href="images/icons/icon-196.png" />
-    <link rel="icon" sizes="128x128" href="images/icons/icon-128.png" />
-    <link rel="apple-touch-startup-image" href="images/icons/icon.png" />
-    <link rel="apple-touch-icon" href="images/icons/icon.png" />
-    <link rel="apple-touch-icon-precomposed" href="images/icons/icon-57.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/icons/icon-72.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/icon/icon-114.png" />
-    <link rel="apple-touch-icon" sizes="128x128" href="images/icons/icon-128.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="128x128" href="images/icons/icon-128.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/icons/icon-144.png" />
-    <link rel="apple-touch-icon" sizes="76x76" href="images/icons/icon-76.png" />
-    <link rel="apple-touch-icon" sizes="120x120" href="images/icons/icon-120.png" />
-    <link rel="apple-touch-icon" sizes="152x152" href="images/icons/icon-152.png" />
-    <!--[if gte IE 9]> <style type="text/css"> .gradient{filter: none;}</style><![endif]-->
-    <meta name="robots" content="index,follow">
-    <script>
-        // iOS viewport scaling bug fix, by @mathias, @cheeaun and @jdalton (function(doc){var addEvent='addEventListener',type='gesturestart',qsa='querySelectorAll',scales=[1,1],meta=qsa in doc?doc[qsa]('meta[name=viewport]'):[];function fix(){meta.content='width=device-width,minimum-scale='+scales[0]+',maximum-scale='+scales[1];doc.removeEventListener(type,fix,true);}if((meta=meta[meta.length-1])&&addEvent in doc){fix();scales=[.25,1.6];doc[addEvent](type,fix,true);}}(document));
-    </script>
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+	<meta name="theme-color" content="#e8cd3a" />
+	<meta http-equiv="refresh" content="1600" />
+	<meta name="author" content="Rafael Ramírez | Argenis Oldair Palacios @DrLfnt" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta http-equiv="cleartype" content="on" />
+	<!-- Mobile Internet Explorer ClearType Technology -->
+	<!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
+	<meta name="mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<meta name="msapplication-TileImage" content="images/icons/icon.png">
+	<meta name="msapplication-TileColor" content="#e8cd3a">
+	<meta name="HandheldFriendly" content="true" />
+	<meta name="MobileOptimized" content="320" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui" />
+	<meta name="description" content="Reparación automotriz, Manejo Defensivo, Seguridad Vial, Evaluación de riesgos en Flotillas, Campañas de Educación Vial, Reconstrucción de accidentes de tránsito, Década de la seguridad vial, Dictámenes técnicos, Manejo Seguro, Consultoría flotillas, Consultoría para compañías de seguros, Consultoría para talleres, Capacitación para compañías de seguros, Plan de talleres, Talleres de reparación automotriz, Disminución de siniestralidad, Crash test, Capacitación para talleres de hojalatería y pintura, Guía de deslinde, Talleres de Equipo Pesado, Valuación de automóviles, Tabuladores de reparación, Curso virtuales para aseguradoras, Cesviteca, Identificación Vehicular, Certificación de Talleres, Certificación de Localizadores, Evaluación de talleres, Certificación CMX2009" />
+	<!-- App Name and Title -->
+	<meta name="application-name" content="CESVI MEXICO" />
+	<meta name="apple-mobile-web-app-title" content="CESVI MEXICO" />
+	<!-- App Name and Title -->
+	
+	<title>CESVI MEXICO</title>
+
+	<link rel="icon" href="images/icons/favicon.ico">
+	<!-- Android Icon -->
+	<link rel="icon" sizes="196x196" href="images/icons/icon-196.png"/>
+	<link rel="icon" sizes="128x128" href="images/icons/icon-128.png"/>
+	<!-- Android Icon -->
+	<!-- Apple Icon -->
+	<link rel="apple-touch-startup-image" href="images/icons/icon.png" />
+	<link rel="apple-touch-icon" href="images/icons/icon.png"/>
+	<link rel="apple-touch-icon" sizes="128x128" href="images/icons/icon-128.png"/>
+	<link rel="apple-touch-icon-precomposed" sizes="128x128" href="images/icons/icon-128.png"/>
+	<!-- Apple Icon -->
+	<!-- Apple Retina Icon -->
+	<link rel="apple-touch-icon" sizes="76x76" href="images/icons/icon-76.png"/>
+	<link rel="apple-touch-icon" sizes="120x120" href="images/icons/icon-120.png"/>
+	<link rel="apple-touch-icon" sizes="152x152" href="images/icons/icon-152.png"/>
+	<!-- Apple Retina Icon -->
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<!--[if gte IE 9]>
+	<style type="text/css">
+		.gradient {
+		filter: none;
+		}
+	</style>
+	<![endif]-->
+	<!-- Robots.txt -->
+	<meta name="robots" content="index,follow">
+	<!-- Robots.txt -->
+	<script>
+	// iOS viewport scaling bug fix, by @mathias, @cheeaun and @jdalton
+	(function(doc){var addEvent='addEventListener',type='gesturestart',qsa='querySelectorAll',scales=[1,1],meta=qsa in doc?doc[qsa]('meta[name=viewport]'):[];function fix(){meta.content='width=device-width,minimum-scale='+scales[0]+',maximum-scale='+scales[1];doc.removeEventListener(type,fix,true);}if((meta=meta[meta.length-1])&&addEvent in doc){fix();scales=[.25,1.6];doc[addEvent](type,fix,true);}}(document));
+	</script>
+
 
 </head>
 
-<body class="homepage">
-    <header id="header">
-        <div class="top-bar">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 col-xs-4">
-                        <div class="top-number">
-                            <p><i class="fa fa-phone"></i>  <a style="color: white; font-size: 64.99%;" href="tel:+52 1 722 279 2850">722 279 2850</a>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-xs-8">
-                        <div class="social">
-                            <ul class="social-share">
-                                <li><a target="_blank" href="http://facebook.com/cesvimexico"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li><a target="_blank" href="http://twitter.com/cesvimexico"><i class="fa fa-twitter"></i></a>
-                                </li>
-                                <li><a target="_blank" href="http://youtube.com/user/CESVITV"><i class="fa fa-youtube"></i></a>
-                                </li>
-                            </ul>
-                            <div class="search">
-                                <form role="form">
-                                    <input type="text" class="search-form" autocomplete="off" placeholder="Buscar"> <i class="fa fa-search"></i> 
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<style>
+
+.bg-menu {
+	background: #002F87;
+	margin: 0;
+	padding-left: 0;
+	padding-bottom: 5px;
+}
+.azul-cesvi-bg a {
+	text-decoration: none;
+	color: #fff;
+	padding: 0 22px 5px;
+
+}
+.azul-cesvi-bg a:hover {
+	background: #F1CE1D;
+	text-decoration: none;
+	color: #002F87;
+	padding: 0 22px 5px;
+}
+.hr {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 15px;
+    height: 10px;
+    background-image: url('images/pleca_cesvi.jpg');
+    background-repeat: repeat-x;
+
+}
+.pleca-cesvi {
+	background: url('images/pleca_cesvi.jpg') repeat-y ;
+}
+.icondim {
+	width:50px;
+	height:50px;
+	
+}
+.no-rojo-no-subrayar:hover{
+	text-decoration: none;
+	color: inherit;
+}
+
+</style>
+
+<body class="oswald">
+
+
+
+<!-- <div class="hidden" id="header-container"> 
+	<div id="header"> <img style="width: 190px;" class="logoheader" src="images/cesvilogo.png" width="190" height="81" alt="Logo"/> 
+		<div class="fecha">
+			<p style="text-align: right; font-size: 1.2em;">
+				<script>var meses=new Array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"),diasSemana=new Array("Domingo","Lunes","Martes","Mi&eacute;rcoles","Jueves","Viernes","S&aacute;bado"),f=new Date;document.write(diasSemana[f.getDay()]+", "+f.getDate()+" de "+meses[f.getMonth()]+" de "+f.getFullYear());</script>
+			</p>
+		</div>
+		<div class="hidden" id="menuh"> 
+			<ul> 
+				<li><a href="**">NOSOTROS</a></li>
+				<li><a href="**">SERVICIOS</a></li>
+				<li><a href="**">SEGURIDAD VIAL</a></li>
+				<li><a href="**">CONTACTO</a></li>
+			</ul> 
+		</div>
+	</div>
+</div>
+
+
+	<div class="navbar-wrapper">
+		<div class="container">
+			
+			<nav class="hidden navbar navbar-default navbar-fixed-top oswald300">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Navegación</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#"><img height="25px" src="images/CESVI-MEXICO-Logotipo.svg"></a>
+					</div>
+					<div id="navbar" class="navbar-collapse collapse navbar-right">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#">Nosotros</a></li>
+							<li><a href="#">Seguridad Vial</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Servicios <span class="caret"></span></a>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="#">Link</a></li>
+									<li><a href="#">Link</a></li>
+									<li class="divider"></li>
+									<li><a href="#">Link</a></li>
+									<li><a href="#">Link</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Productos</a></li>
+							<li><a href="#">Sitios de Interés</a></li>
+							<li><a href="#">Contacto</a></li>
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+						</ul>
+						<form class="navbar-form navbar-left" role="search">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Buscar">
+							</div>
+							<button type="submit" class="btn btn-default">
+								<i class="fa fa-search"></i>
+							</button>
+						</form>
+					</div>
+				</div>
+			</nav>
+
+		</div>
+	</div>
+-->
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="col-md-3">
+					<img width="190" style="margin:25px;" src="images/CESVI-MEXICO-Logotipo.svg" alt="">
+				</div>
+				<div class="col-md-9">
+					<div class="col-md-12">
+						<br>
+						<div class="pull-right">
+							<span style="margin-right:70px; text-align:center;" class="oswald300">
+								<script>var meses=new Array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"),diasSemana=new Array("Domingo","Lunes","Martes","Mi&eacute;rcoles","Jueves","Viernes","S&aacute;bado"),f=new Date;document.write(diasSemana[f.getDay()]+", "+f.getDate()+" de "+meses[f.getMonth()]+" de "+f.getFullYear());</script>
+							</span>
+							<a href="https://www.facebook.com/cesvimexico" target="_blank"><span><i style="font-size:1.9em" class="fa fa-facebook"></i></span></a>
+							<a href="https://twitter.com/cesvimexico" target="_blank"><span><i style="font-size:1.9em" class="fa fa-twitter"></i></span></a>
+							<a href="https://www.youtube.com/user/CESVITV" target="_blank"><span><i style="color:#ED1115; font-size:1.9em;" class="fa fa-youtube"></i></span></a>
+						</div>
+						<br>
+					</div>
+					<div class="col-md-12 text-right azul-cesvi-bg oswald300" style="font-size:1.2em;">
+						<br>
+						<p class="bg-menu">
+							<a href="nosotros.html">Nosotros</a> <a href="">Seguridad Vial</a> <a href="">Servicios</a> <a href="">Productos</a> <a href="">Sitios de Interés</a> <a href="">Contacto</a> <a href=""><i class="fa fa-search"></i></a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<hr class="hr">
+
+	<div class="container">
+		
+	<div class="container marketing azul-cesvi-bg oswald300">
+				
+
+            <section class="col-md-9"><p style="font-size:1em;" class=" text-left bg-menu">
+					<a class="no-rojo-no-subrayar" href="#">Conocenos</a> <a class="no-rojo-no-subrayar" href="#">Proyección Internacional</a> <a class="no-rojo-no-subrayar" href="#">Reconocimientos Obtenidos</a> <a class="no-rojo-no-subrayar" href="#">CRASH TEST</a>
+				</p>
+				<center>
+					<h1 class="services-index">Conoce a CESVI México</h1>
+				</center>
+                          
+				<iframe width="765" height="484" src="https://www.youtube.com/embed/Ok-oNZ7-1Oo" frameborder="0" allowfullscreen></iframe>
+              <br/><br/>
+              <p>
+              CESVI MÉXICO (Centro de Experimentación y Seguridad Vial México) es el único centro de investigación y capacitación en materia de reparabilidad, seguros y cultura vial en México, Centro América y el Caribe.</p>
+			<p>
+      En Cesvi México tenemos como aliados estratégicos a: AXA Seguros, GNP Seguros, Mapfre Seguros, Quálitas Compañía de Seguros, Seguros Atlas y Seguros Inbursa. Lo que nos permite desarrollar productos y servicios encaminados a la profesionalización del sector y a la reducción de la siniestralidad en el país.
+              </p>
+			</section>
+ 
+            <div class="col-lg-3">
+            <div class="box-rounded-blue">
+            <span style="font-size:1.5em; color: #FFF100" class="oswald400">Servicio al cliente:</span><br/>
+            <i class="fa fa-phone"></i>
+ +52 (722) 2 79 28 50<br/>
+ servicioalcliente@cesvimexico.com.mx<br/>
+<span style="color: #FFF100">*Atención en línea</span>
             </div>
-        </div>
-        <nav class="navbar navbar-inverse" role="banner">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Barras Navegación</span>  <span class="icon-bar"></span>  <span class="icon-bar"></span>  <span class="icon-bar"></span> 
-                    </button>
-                    <a class="navbar-brand" href="index.html">
-                        <img class="hidden-md hidden-lg" height="40" src="images/logo.svg" alt="logo">
-                        <img class="hidden-xs hidden-sm" height="52" src="images/logo.svg" alt="logo">
-                    </a>
-                </div>
-                <div class="collapse navbar-collapse navbar-right">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#feature">Nosotros</a>
-                        </li>
-                        <li><a href="#">Seguridad Vial</a>
-                        </li>
-                        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Servicios <i class="fa fa-angle-down"></i></a> 
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Servicios a Talleres</a>
-                                </li>
-                                <li><a href="#">Servicios a Aseguradoras</a>
-                                </li>
-                                <li><a href="#">Sistemas</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Productos</a>
-                        </li>
-                        <li><a href="#">Sitios de Interés</a>
-                        </li>
-                        <li><a href="#">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
+            <br/>
+            <img class="hidden" src="images/revistacesvi.jpg"></div>
+            
             </div>
-        </nav>
-    </header>
-    <section id="main-slider" class="no-margin">
-        <div class="carousel slide">
-            <ol class="carousel-indicators">
-                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
-                <li data-target="#main-slider" data-slide-to="1"></li>
-                <li data-target="#main-slider" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="item active" style="background-image: url(images/slider/bg1.jpg)">
-                    <div class="container">
-                        <div class="row slide-margin">
-                            <div class="col-sm-6">
-                                <div class="carousel-content">
-                                    <h1 class="outline-slides animation animated-item-1">En el camino de la Inovación</h1> 
-                                    <h2 class="outline-slides animation animated-item-2">Estamos certificados con el ISO 9001 2008.</h2>
-                                    <a class="btn-slide animation animated-item-3" href="#">Ver más</a> 
-                                </div>
-                            </div>
-                            <div class="col-sm-6 hidden-xs animation animated-item-4">
-                                <div class="slider-img">
-                                    <img src="images/slider/img1.png" class="img-responsive">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item" style="background-image: url(images/slider/bg2.jpg)">
-                    <div class="container">
-                        <div class="row slide-margin">
-                            <div class="col-sm-6">
-                                <div class="carousel-content">
-                                    <h1 class="outline-slides animation animated-item-1">Consultorias de seguridad vial</h1> 
-                                    <h2 class="outline-slides animation animated-item-2">Consultorias de manejo defensivo y campañas de seguridad vial.</h2>
-                                    <a class="btn-slide animation animated-item-3" href="#">Ver más</a> 
-                                </div>
-                            </div>
-                            <div class="col-sm-6 hidden-xs animation animated-item-4">
-                                <div class="slider-img">
-                                    <img src="images/slider/img2.png" class="img-responsive">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item" style="background-image: url(images/slider/bg3.jpg)">
-                    <div class="container">
-                        <div class="row slide-margin">
-                            <div class="col-sm-6">
-                                <div class="carousel-content">
-                                    <h1 class="outline-slides animation animated-item-1">Expo Reparación Automotriz 2015</h1> 
-                                    <h2 class="outline-slides animation animated-item-2">12 y 13 de Marzo en los salones Maya 1 y 2 del WTC de la Ciudad de México</h2>
-                                    <a class="btn-slide animation animated-item-3" href="#">Ver más</a> 
-                                </div>
-                            </div>
-                            <div class="col-sm-6 hidden-xs animation animated-item-4">
-                                <div class="slider-img">
-                                    <img src="images/slider/img3.png" class="img-responsive">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <a class="prev hidden-xs" href="#main-slider" data-slide="prev"> <i class="fa fa-chevron-left"></i> 
-        </a>
-        <a class="next hidden-xs" href="#main-slider" data-slide="next"> <i class="fa fa-chevron-right"></i> 
-        </a>
-    </section>
-    <section id="feature">
-        <div class="container">
-            <div class="center wow fadeInDown">
-                <h2>CESVI MÉXICO</h2> 
-                <p class="lead"><strong>(Centro de Experimentación y Seguridad Vial México)</strong>
-                <br />Es el único centro de investigación y capacitación en materia de reparabilidad, seguros y cultura vial en México, Centro América y el Caribe.
-                <br />En Cesvi México tenemos como aliados estratégicos a: AXA Seguros, GNP Seguros, Mapfre Seguros, Quálitas Compañía de Seguros, Seguros Atlas y Seguros Inbursa.
-                <br />Lo que nos permite desarrollar productos y servicios encaminados a la profesionalización del sector y a la reducción de la siniestralidad en el país.</p>
-            </div>
-            <div class="row">
-                <div class="features">
-                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="feature-wrap"> <i class="fa fa-road"></i> 
-                            <h2>Seguridad Vial</h2> 
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3> 
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="feature-wrap"> <i class="fa fa-car"></i> 
-                            <h2>Aseguradoras</h2> 
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3> 
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="feature-wrap"> <i class="fa fa-wrench"></i> 
-                            <h2>Talleres</h2> 
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3> 
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="recent-works">
-        <div class="container">
-            <div class="center wow fadeInDown">
-                <h2>Crash Test</h2> 
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut<br /> et dolore magna aliqua. Ut enim ad minim veniam</p>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/portfolio/recent/item1.png" alt="">
-                        <div class="overlay">
-                            <div class="recent-work-inner">
-                                <h3><a href="#">Lorem Crash</a> </h3> 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <center><a class="preview" href="images/portfolio/full/item1.png" rel="prettyPhoto"><i class="fa fa-eye"></i> Ver</a>
-                                </center>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
-                        <div class="overlay">
-                            <div class="recent-work-inner">
-                                <h3><a href="#">Lorem Crash</a></h3> 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <center><a class="preview" href="images/portfolio/full/item2.png" rel="prettyPhoto"><i class="fa fa-eye"></i> Ver</a>
-                                </center>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/portfolio/recent/item3.png" alt="">
-                        <div class="overlay">
-                            <div class="recent-work-inner">
-                                <h3><a href="#">Lorem Crash </a></h3> 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <center><a class="preview" href="images/portfolio/full/item3.png" rel="prettyPhoto"><i class="fa fa-eye"></i> Ver</a>
-                                </center>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/portfolio/recent/item4.png" alt="">
-                        <div class="overlay">
-                            <div class="recent-work-inner">
-                                <h3><a href="#">Lorem Crash </a></h3> 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <center><a class="preview" href="images/portfolio/full/item4.png" rel="prettyPhoto"><i class="fa fa-eye"></i> Ver</a>
-                                </center>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/portfolio/recent/item5.png" alt="">
-                        <div class="overlay">
-                            <div class="recent-work-inner">
-                                <h3><a href="#">Lorem Crash</a></h3> 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <center><a class="preview" href="images/portfolio/full/item5.png" rel="prettyPhoto"><i class="fa fa-eye"></i> Ver</a>
-                                </center>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/portfolio/recent/item6.png" alt="">
-                        <div class="overlay">
-                            <div class="recent-work-inner">
-                                <h3><a href="#">Lorem Crash </a></h3> 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <center><a class="preview" href="images/portfolio/full/item6.png" rel="prettyPhoto"><i class="fa fa-eye"></i> Ver</a>
-                                </center>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/portfolio/recent/item7.png" alt="">
-                        <div class="overlay">
-                            <div class="recent-work-inner">
-                                <h3><a href="#">Lorem Crash </a></h3> 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <center><a class="preview" href="images/portfolio/full/item7.png" rel="prettyPhoto"><i class="fa fa-eye"></i> Ver</a>
-                                </center>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/portfolio/recent/item8.png" alt="">
-                        <div class="overlay">
-                            <div class="recent-work-inner">
-                                <h3><a href="#">Lorem Crash </a></h3> 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <center><a class="preview" href="images/portfolio/full/item8.png" rel="prettyPhoto"><i class="fa fa-eye"></i> Ver</a>
-                                </center>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="services" class="service-item">
-        <div class="container">
-            <div class="center wow fadeInDown">
-                <h2>Servicios y Soluciones</h2> 
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut<br /> et dolore magna aliqua. Ut enim ad minim veniam</p>
-            </div>
-            <div class="row">
-                <div class="col-sm-6 col-md-4">
-                    <div class="media services-wrap wow fadeInDown">
-                        <div class="pull-left">
-                            <img class="img-responsive" src="images/services/services1.png">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">SAT</h3> 
-                            <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <div class="media services-wrap wow fadeInDown">
-                        <div class="pull-left">
-                            <img class="img-responsive" src="images/services/services2.png">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">CESVITECA</h3> 
-                            <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <div class="media services-wrap wow fadeInDown">
-                        <div class="pull-left">
-                            <img class="img-responsive" src="images/services/services3.png">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">Facturación</h3> 
-                            <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="content" class="shortcode-item">
+		</div>
+
+	</div>
+    
+   <section id="content" class="shortcode-item">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-7">
-                    <h2 class="text-center amarillo-cesvi">Sitios de Interés</h2> 
+            <h2 class=" text-center services-index"></h2>
+                <div class="col-xs-12 col-sm-9">
+                     
                     <div class="tab-wrap">
                         <div class="media">
                             <div class="parrent pull-left">
                                 <ul class="nav nav-tabs nav-stacked">
-                                    <li class="active"><a href="#tab1" data-toggle="tab" class="analistic-01">Auto Body Magazine</a>
-                                    </li>
-                                    <li class=""><a href="#tab2" data-toggle="tab" class="analistic-02">Directorio de Talleres</a>
-                                    </li>
-                                    <li class=""><a href="#tab3" data-toggle="tab" class="analistic-03">Expo Reparación Automotriz</a>
-                                    </li>
-                                    <li class=""><a href="#tab4" data-toggle="tab" class="analistic-04">Videos de Crash Test</a>
-                                    </li>
-                                    <li class=""><a href="#tab5" data-toggle="tab" class="analistic-05">CesviTV</a>
-                                    </li>
-                                    <li class=""><a href="#tab6" data-toggle="tab" class="analistic-05">Cesviteca</a>
-                                    </li>
+                                    <li class="active"><a href="#tab1" data-toggle="tab" class="analistic-01">Objetivo</a></li>
+                                    <li class=""><a href="#tab2" data-toggle="tab" class="analistic-02">Misión y Visión</a></li>
+                                    <li class=""><a href="#tab3" data-toggle="tab" class="tehnical">Ubicación</a></li>
+                                    
                                 </ul>
                             </div>
+
                             <div class="parrent media-body">
                                 <div class="tab-content">
                                     <div class="tab-pane active in" id="tab1">
                                         <div class="media">
-                                            <div class="pull-left">
-                                                <a href="http://www.autobodymagazine.com.mx/abm_previo/" target="_blank">
-                                                    <img class="img-responsive" width="69%" src="images/sitios-interes/ABM.png">
-                                                </a>
-                                            </div>
+                                           
                                             <div class="media-body">
-                                                <h4>Auto Body Magazine</h4> 
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea perspiciatis maiores, soluta laboriosam aut? Exercitationem, ea non.</p>
-                                            </div>
+                                                 <h4>Misión</h4>
+<p>Somos un centro de investigación, experimentación y divulgación para optimizar la cadena de valor del vehículo, minimizar las consecuencias de los accidentes viales y fomentar una movilidad segura.</p><br/>
+<h4>Visión</h4>
+<p>Ser referente por el desarrollo de conocimiento a través de la innovación e investigación en movilidad segura.</p>
+                                                 
+                                                 
+                                                 
+                                                 
+                                                   </div>
                                         </div>
                                     </div>
-                                    <div class="tab-pane" id="tab2">
+
+                                     <div class="tab-pane" id="tab2">
                                         <div class="media">
                                             <div class="media-body">
-                                                <h4>Directorio de Talleres</h4> 
-                                                <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum placeat nemo fugiat, commodi dolor vero! Doloremque soluta quidem, modi quae recusandae adipisci porro rem distinctio minus deserunt, eligendi itaque laborum.</span><span>Totam quibusdam, beatae ullam odio quasi accusantium repellat maxime ad suscipit nobis, quod repudiandae minus tempore adipisci minima aliquam corporis vitae asperiores molestias.</span></p>
-                                            </div>
+
+                                                 <h4>Misión</h4>
+<p>Somos un centro de investigación, experimentación y divulgación para optimizar la cadena de valor del vehículo, minimizar las consecuencias de los accidentes viales y fomentar una movilidad segura.</p><br/>
+<h4>Visión</h4>
+<p>Ser referente por el desarrollo de conocimiento a través de la innovación e investigación en movilidad segura.</p>                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="tab-pane" id="tab3">
-                                        <div class="media">
-                                            <div class="pull-left">
-                                                <a href="http://www.autobodymagazine.com.mx/abm_previo/" target="_blank">
-                                                    <img class="img-responsive" width="69%" src="images/sitios-interes/ERA.png">
-                                                </a>
-                                            </div>
-                                            <div class="media-body">
-                                                <h4>Expo Reparación Automotriz</h4> 
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat ipsum voluptatem.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane" id="tab4">
-                                        <div class="media">
-                                            <div class="pull-left">
-                                                <a href="http://www.autobodymagazine.com.mx/abm_previo/" target="_blank">
-                                                    <img class="img-responsive" src="images/sitios-interes/crash-test.png">
-                                                </a>
-                                            </div>
-                                            <div class="media-body">
-                                                <h4>Videos de Crash Test</h4> 
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente impedit quia qui earum, atque.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane" id="tab5">
-                                        <div class="media">
-                                            <div class="pull-left">
-                                                <a href="http://www.autobodymagazine.com.mx/abm_previo/" target="_blank">
-                                                    <img class="img-responsive" src="images/sitios-interes/crash-test.png">
-                                                </a>
-                                            </div>
-                                            <div class="media-body">
-                                                <h4>CesviTV</h4> 
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente impedit quia qui earum, atque.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane" id="tab6">
-                                        <div class="media">
-                                            <div class="pull-left">
-                                                <a href="http://www.autobodymagazine.com.mx/abm_previo/" target="_blank">
-                                                    <img class="img-responsive" src="images/sitios-interes/cesviteca.png">
-                                                </a>
-                                            </div>
-                                            <div class="media-body">
-                                                <h4>Cesviteca</h4> 
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente impedit quia qui earum, atque.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-5">
-                    <h2 class="text-center amarillo-cesvi">Notas de Interés</h2> 
+                                     </div>
+
+                                     <div class="tab-pane" id="tab3">
+                                     <h4>Sucursal Guadalajara</h4>
+                                     <p>Nuestra sucursal en Jalisco se encuentra ubicada en la ciudad de Guadalajara, por ser un estado que presenta un gran crecimiento industrial en la zona occidente del País. Hemos multiplicado nuestros servicios y capacitamos a personas procedentes de Aguascalientes, Colima, Guanajuato, Michoacán, Nayarit y Sinaloa.</p>
+                                     <br/>
+                                     <p><em>Av. Enrique Díaz de León #783 Col. Moderna<br/>
+                                        Guadalajara, Jalisco, C.P. 44190<br/>
+                                        Teléfonos: (0133) 38101744 38129508 31011136</em></p>
+
+                                     </div>
+                                     
+                                     
+                                </div> <!--/.tab-content-->  
+                            </div> <!--/.media-body--> 
+                        </div> <!--/.media-->     
+                    </div><!--/.tab-wrap-->               
+                </div><!--/.col-sm-6-->
+
+                <div class="col-xs-12 col-sm-3">
                     <div class="accordion">
                         <div class="panel-group" id="accordion1">
-                            <div class="panel panel-default">
-                                <div class="panel-heading active">
-                                    <h3 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1"> Anuncian 13 edición de Expo Reparación Automotiz <i class="fa fa-angle-right pull-right"></i> </a> </h3> 
-                                </div>
-                                <div id="collapseOne1" class="panel-collapse collapse in">
-                                    <div class="panel-body">
-                                        <div class="media accordion-inner">
-                                            <div class="pull-left">
-                                                <img class="img-responsive" src="http://lorempixel.com/100/100/transport/7">
-                                            </div>
-                                            <div class="media-body">
-                                                <h4>Auto Body Magazine</h4> 
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading active">
+                              <h3 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1">
+                                  Revista Cesvi México
+                                  <i class="fa fa-angle-right pull-right"></i>
+                                </a>
+                              </h3>
                             </div>
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo1"> Premios a Cesvi México <i class="fa fa-angle-right pull-right"></i> </a> </h3> 
-                                </div>
-                                <div id="collapseTwo1" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                        <div class="media accordion-inner">
-                                            <div class="pull-left">
-                                                <img class="img-responsive" src="http://lorempixel.com/100/100/transport/8">
-                                            </div>
-                                            <div class="media-body">
-                                                <h4>Premios a Cesvi México</h4> 
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseThree1"> Imagenes de Crash Test <i class="fa fa-angle-right pull-right"></i> </a> </h3> 
-                                </div>
-                                <div id="collapseThree1" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                        <div class="media accordion-inner">
-                                            <div class="pull-left">
-                                                <img class="img-responsive" src="http://lorempixel.com/100/100/transport/5/">
-                                            </div>
-                                            <div class="media-body">
-                                                <h4>Imagenes de Crash Test</h4> 
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <hr>
-    <hr>
-    <section id="partner">
-        <div class="container">
-            <div class="center wow fadeInDown">
-                <h2>Estamos respaldados por:</h2> 
-                <p class="lead">MAPFRE, INBURSA, SEGUROS ATLAS, GNP SEGUROS, AXA SEGUROS, QUALITAS</p>
-            </div>
-            <div class="partners">
-                <ul>
-                    <li>
-                        <a href="#">
-                            <img width="150" height="" class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" src="images/partners/partner1-mapfre.svg">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img width="150" height="" class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" src="images/partners/partner2-inbursa.svg">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img width="150" height="" class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" src="images/partners/partner3-atlas.svg">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img width="150" height="" class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms" src="images/partners/partner4-gnp.svg">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img width="150" height="" class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1500ms" src="images/partners/partner5-axa.svg">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img width="30" height="" class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1800ms" src="images/partners/partner6-qualitas.svg">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <section id="conatcat-info">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8">
-                    <div class="media contact-info wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="pull-left"> <i class="fa fa-phone"></i> 
-                        </div>
-                        <div class="media-body">
-                            <h2>Tienes alguna duda? Nosotros te asesoramos</h2> 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation <a class="azul-cesvi" href="tel:+52 1 722 279 2850">722 279 2850</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="bottom">
-        <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <div class="widget">
-                        <h3>NOSOTROS</h3> 
-                        <ul>
-                            <li><a href="#">Conoce a CESVI México</a>
-                            </li>
-                            <li><a href="#">Proyección Internacional</a>
-                            </li>
-                            <li><a href="#">Reconocimientos Obtenidos</a>
-                            </li>
-                            <li><a href="#">CRASH TEST</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="widget">
-                        <h3>SEGURIDAD VIAL</h3> 
-                        <ul>
-                            <li><a href="#">Consultoría en seguridad vial</a>
-                            </li>
-                            <li><a href="#">Capacitación en Manejo Seguro</a>
-                            </li>
-                            <li><a href="#">Evaluación de Manejo en Línea</a>
-                            </li>
-                            <li><a href="#">Diagnostico de Seguridad Vial para Empresas</a>
-                            </li>
-                            <li><a href="#">Conferencias en Prevención de Accidentes</a>
-                            </li>
-                            <li><a href="#">Reconstrucción Accidentes de Tránsito</a>
-                            </li>
-                            <li><a href="#">CONTACTO</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="widget">
-                        <h3>SERVICIOS PARA COMPAÑÍAS DE SEGUROS</h3> 
-                        <ul>
-                            <li><a href="#">Guía de deslinde</a>
-                            </li>
-                            <li><a href="#">Capacitación en Ajuste, Valuación, y Equipo Pesado</a>
-                            </li>
-                            <li><a href="#">Consultoría en Procesos de Valuación</a>
-                            </li>
-                            <li><a href="#">Auditorias en Valuación</a>
-                            </li>
-                            <li><a href="#">Reconstrucción de Accidentes de Tránsito</a>
-                            </li>
-                            <li><a href="#">Dictámenes Técnico Mecánicos</a>
-                            </li>
-                            <li><a href="#">Formación de Ajustadores</a>
-                            </li>
-                            <li><a href="#">Certificación de Ajustadores</a>
-                            </li>
-                            <li><a href="#">CONTACTO</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="widget">
-                        <h3>SERVICIOS A TALLERES</h3> 
-                        <ul>
-                            <li><a href="#">Desarrollo de talleres y agencias</a>
-                            </li>
-                            <li><a href="#">Consultoría a talleres y agencias</a>
-                            </li>
-                            <li><a href="#">Plan para el sector de motos</a>
-                            </li>
-                            <li><a href="#">Plan para el sector de autos</a>
-                            </li>
-                            <li><a href="#">Plan para el sector de equipos pesados</a>
-                            </li>
-                            <li><a href="#">CONTACTO</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer id="footer" class="midnight-blue">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6"> <a target="_blank" href="#" title="#">Cesvi México</a> &copy; 2015. Todos los derechos reservados.</div>
-                <div class="col-sm-6">
-                    <ul class="pull-right">
-                        <li><a href="#">Nosotros</a>
-                        </li>
-                        <li><a href="#">Seguridad Vial</a>
-                        </li>
-                        <li><a href="#">Servicios</a>
-                        </li>
-                        <li><a href="#">Productos</a>
-                        </li>
-                        <li><a href="#">Sitios</a>
-                        </li>
-                        <li><a href="#">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="hidden col-sm-12 text-muted">
-                    <p>Diseñado por <a href="http://disainco.com/"> DisainCo </a> 
-                    </p>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/jquery.isotope.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/wow.min.js"></script>
-</body>
 
+                            <div id="collapseOne1" class="panel-collapse collapse in">
+                              <div class="panel-body">
+                                  <div class="media accordion-inner">
+                                        <div class="pull-left">
+                                            <img class="img-responsive" src="images/accordion1.jpg">
+                                        </div>
+                                        <div class="media-body">
+                                             <h4>Febrero 2015</h4>
+                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                                        </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h3 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo1">
+                                  Crash Test
+                                  <i class="fa fa-angle-right pull-right"></i>
+                                </a>
+                              </h3>
+                            </div>
+                            <div id="collapseTwo1" class="panel-collapse collapse">
+                              <div class="panel-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h3 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseThree1">
+                                  Cesvi TV
+                                  <i class="fa fa-angle-right pull-right"></i>
+                                </a>
+                              </h3>
+                            </div>
+                            <div id="collapseThree1" class="panel-collapse collapse">
+                              <div class="panel-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
+                              </div>
+                            </div>
+                          </div>
+                        </div><!--/#accordion1-->
+                    </div>
+                </div>
+            </div><!--/.row-->
+        </div><!--/.container-->
+    </section><!--/#content-->
+    
+    <br/>
+    <br/>
+
+	<div class="fluid-container bg-footer">
+
+		<div class="container">
+
+			<div class="row">
+				<div class="col-md-12">
+					<div class="col-md-2">
+						<img style="margin-top:20px;margin-bottom:20px;" class="img-responsive max-height" src="images/calidad.png" alt="partners">
+					</div>
+					<div class="col-md-2">
+						<br><br>
+						<p><a class="white oswald300" href="#">Prensa</a></p>
+					</div>
+					<div class="col-md-2">
+						<br><br>
+						<p><a class="white oswald300" href="#">Bolsa de Trabajo</a></p>
+					</div>
+					<div class="col-md-2">
+						<br><br>
+						<p><a class="white oswald300" href="#">Legales</a></p>
+					</div>
+					<div class="col-md-4">
+						<br>
+						<p class="text-center white oswald300">
+                        Calle Uno Sur no 101, Parque Industrial Toluca 2000,<br/>
+Toluca Estado de México, C.P. 50200<br/>
+Conmutador +52 (722) 279-28-50  <br/>
+Departamento de Ventas + 52 (722) 279-28-73 y 279-28-74<br/> 
+Fax + 52 (722) 279-02-24
+</p>
+						<br/>
+					</div>
+				</div>
+                
+			</div>
+
+		</div>
+		<div class="row">
+			<div class="col-md-12 bg-partners">
+				<div class="col-md-2">
+					<img class="img-responsive max-height" src="images/1-mapfre.svg" alt="partners">
+				</div>
+				<div class="col-md-2">
+					<img class="img-responsive max-height" src="images/2-inbursa.svg" alt="partners">
+				</div>
+				<div class="col-md-2">
+					<img class="img-responsive max-height" src="images/3-atlas.svg" alt="partners">
+				</div>
+				<div class="col-md-2">
+					<img class="img-responsive max-height" src="images/4-GNP.svg" alt="partners">
+				</div>
+				<div class="col-md-2">
+					<img class="img-responsive max-height" src="images/5-axa.svg" alt="partners">
+				</div>
+				<div class="col-md-2">
+					<img class="img-responsive max-height" src="images/6-qualitas.svg" alt="partners">
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<div style="height:0;">
+		<p style="margin-top:10px;" class="text-center"><a style="text-decoration: none;">&copy; 2015 CESVI MEXICO. &middot; Todos los derechos reservados</a></p>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="http://getbootstrap.com/assets/js/docs.min.js"></script>
+	<script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/main.js"></script>
+</body>
 </html>
