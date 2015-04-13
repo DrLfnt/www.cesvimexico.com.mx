@@ -63,10 +63,18 @@
 	</script>
 </head>
 <body class="oswald">
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.3";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<img src="images/banner-top.jpg" width="100%" alt="banner publicidad">
+				<img src="images/BANNERCESVIHEADER.jpg" class="img-responsive" alt="banner publicidad">
 			</div>
 		</div>
 	</div>
@@ -92,13 +100,19 @@
 							</div>
 							<div id="navbar" class="navbar-collapse collapse">
 								<ul class="nav navbar-nav">
-									<li><a href="nosotros.html">Nosoros</a></li>
+									<li><a href="nosotros.html">Nosotros</a></li>
 									<li><a href="#">Seguridad Vial</a></li>
 									<li><a href="#">Servicios</a></li>
 									<li><a href="#">Productos</a></li>
 									<li><a href="#">Sitios de Interés</a></li>
 									<li><a href="#">Contacto</a></li>
 								</ul>
+								<form class="navbar-form pull-right">
+									<button type="submit" class="btn btn-success"><i class="fa fa-search"></i></button>
+									<div class="form-group">
+										<input type="text" placeholder="Buscar" class="form-control">
+									</div>
+								</form>
 							</div>
 						</div>
 					</nav>
@@ -125,20 +139,47 @@
 							<a href="https://www.facebook.com/cesvimexico" target="_blank"><span><i style="font-size:1.9em" class="fa fa-facebook"></i></span></a>
 							<a href="https://twitter.com/cesvimexico" target="_blank"><span><i style="font-size:1.9em" class="fa fa-twitter"></i></span></a>
 							<a href="https://www.youtube.com/user/CESVITV" target="_blank"><span><i style="color:#ED1115; font-size:1.9em;" class="fa fa-youtube"></i></span></a>
+							<form style="margin-top:0!important;" class="navbar-form pull-right">
+								<button type="submit" class="btn btn-info"><i class="fa fa-search"></i></button>
+								<div class="form-group">
+									<input type="text" placeholder="Buscar" class="form-control">
+								</div>
+							</form>
 						</div>
 						<br>
 					</div>
 					<div class="hidden-xs hidden-sm hidden-md col-md-12 text-right azul-cesvi-bg oswald300" style="font-size:1.2em;">
 						<br>
-						<p class="bg-menu">
+						
+						<a class="btn btn-primary" href="nosotros.html">Nosotros</a> 
+						
+						<a class="btn btn-primary" data-toggle="collapse" href="#collapseSeguridadVial" aria-expanded="true" aria-controls="collapseSeguridadVial">Seguridad Vial</a>
+						<a class="btn btn-primary" href="">Servicios</a> 
+						<a class="btn btn-primary" href="">Productos</a> 
+						<a class="btn btn-primary" href="">Sitios de Interés</a> 
+						<a class="btn btn-primary" href="">Contacto</a>
+						
+						<div class="collapse" id="collapseSeguridadVial">
+							<div>
+								<center>
+								<ul>
+									<li style="margin:.5em;list-style:none;"><a href="#">Lorem</a></li>
+									<li style="margin:.5em;list-style:none;"><a href="#">Ipsum</a></li>
+									<li style="margin:.5em;list-style:none;"><a href="#">Dolor</a></li>
+								</ul>
+								</center>
+							</div>
+						</div>
+
+						<!-- <p class="hidden bg-menu">
 							<a href="nosotros.html">Nosotros</a> 
-							<a href="">Seguridad Vial</a> 
+							<a href="">Seguridad Vial</a>
 							<a href="">Servicios</a> 
 							<a href="">Productos</a> 
 							<a href="">Sitios de Interés</a> 
-							<a href="">Contacto</a> 
-							<a href=""><i class="fa fa-search"></i></a>
-						</p>
+							<a href="">Contacto</a>
+						</p> -->
+
 					</div>
 				</div>
 			</div>
@@ -304,11 +345,35 @@
 				</div>
 				<br>
 				<center>
-					<img class="img-responsive" src="images/revistacesvi.jpg">
+					<img class="img-responsive" width="100%" src="images/videos.jpg">
 				</center>
 			</div>
 		</div>
 	</div>
+	<br>
+	<section class="container">
+		<div class="row">
+			<div class="col-md-5">
+				<div class="col-md-12">
+					<img class="img-responsive" width="100%" src="images/vin.jpg" alt="">
+				<br>
+				</div>
+				<div class="col-md-12">
+					<img class="img-responsive" width="100%" src="images/ERMA.jpg" alt="">
+				</div>
+			</div>
+			<div class="col-md-4">
+				<center>
+					<div class="fb-page" data-href="https://www.facebook.com/cesvimexico" data-width="500" data-height="500" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/cesvimexico"><a href="https://www.facebook.com/cesvimexico">Cesvi México</a></blockquote></div></div>
+				</center>
+			</div>
+			<div class="col-md-3">
+				<center>
+					<img class="img-responsive" src="images/revistacesvi.jpg">
+				</center>
+			</div>
+		</div>
+	</section>
 	<section class="shortcode-item">
 		<div class="container">
 			<div class="row">
@@ -351,15 +416,18 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-12 hidden-sm col-md-3">
-					<center>
-						<img class="img-responsive" src="images/crash-test.png" alt="ADSENSE">
-					</center>
-				</div>
+				<div class="col-xs-12 hidden-sm col-md-3"></div>
 			</div>
 		</div>
 	</section>
 	<br><br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<img src="images/banner-top.jpg" width="100%" alt="banner publicidad">
+			</div>
+		</div>
+	</div>
 	<div class="container-fluid">
 		<div class="row bg-footer">
 			<div class="hidden-md hidden-lg col-md-12">
