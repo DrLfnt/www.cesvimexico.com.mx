@@ -63,6 +63,24 @@ body {
   text-decoration: none;
   color: inherit;
 }
+.submenu{
+ font-size: 1.3em;
+ margin:10px;
+  
+}   
+.submenu:hover{
+  text-decoration: none;
+  color: #01226f;
+  border-bottom-color: 01226f;
+  border-bottom-style:solid;
+  border-bottom-width: 1px;
+}
+.submain{
+  border-bottom-color: 01226f;
+  border-bottom-style:solid;
+  border-bottom-width: 2px;
+  font-weight: 400;
+}
 /*
 .topShadowInset {
     -webkit-box-shadow: inset 0px 2px 5px 0px rgba(50, 50, 50, 0.5);
