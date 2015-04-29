@@ -23,6 +23,9 @@ body {
   -ms-transform : scale(1.1); /* IE9 */
   z-index: 99999;
 }
+.descripcion {
+  font-size: 1.1em;
+}
 .bg-menu {
   background: transparent;
   margin: 0;
