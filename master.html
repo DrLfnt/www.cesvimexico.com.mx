@@ -78,10 +78,10 @@
 			</div>
 		</div>
 	</section>
-	<section class="container">
+	<section id="MENU" class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<div class="col-md-12 col-lg-3">
+				<div class="col-md-12 col-lg-2">
 					<center>
 						<img width="190" style="margin:25px;" src="images/CESVI-MEXICO-Logotipo.svg" alt="Cesvi México Logotipo">
 					</center>
@@ -96,34 +96,62 @@
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
 								</button>
-								<a class="navbar-brand">Menu</a>
+								<a class="visible-xs navbar-brand">Menu</a>
 							</div>
 							<div id="navbar" class="navbar-collapse collapse">
 								<ul class="nav navbar-nav">
-									<li><a href="conoce-cesvi.html">Nosotros</a></li>
-									<li><a href="#">Seguridad Vial</a></li>
-									<li><a href="#">Reparación Automotriz</a></li>
-									<li><a href="#">Aseguradoras</a></li>
 									<li class="dropdown">
-										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Otros <span class="caret"></span></a>
+										<a href="conoce-cesvi.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+											Nosotros <span class="caret"></span>
+										</a>
+										<ul class="dropdown-menu" role="menu">
+											<li><a href="conoce-cesvi.html">Conoce a CESVI México</a></li>
+											<li><a href="proyeccion-internacional.html">Proyección Internacional</a></li>
+											<li><a href="reconocimientos-obtenidos.html">Reconocimientos Obtenidos</a></li>
+											<li><a href="crash-test.html">Crash Test</a></li>
+										</ul>
+									</li>
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+											Seguridad Vial <span class="caret"></span>
+										</a>
+										<ul class="dropdown-menu" role="menu">
+											<li><a href="iso-39000.html">ISO-39000</a></li>
+											<li><a href="cursos-empresas.html">Cursos para empresas</a></li>
+											<li><a href="hechos-transito.html">Hechos de Tránsito</a></li>
+										</ul>
+									</li>
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+											Reparación Automotriz <span class="caret"></span>
+										</a>
 										<ul class="dropdown-menu" role="menu">
 											<li><a href="#">Link</a></li>
+										</ul>
+									</li>
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+											Aseguradoras <span class="caret"></span>
+										</a>
+										<ul class="dropdown-menu" role="menu">
+											<li><a href="#">Link</a></li>
+										</ul>
+									</li>
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+											Otros <span class="caret"></span>
+										</a>
+										<ul class="dropdown-menu" role="menu">
 											<li><a href="#">Link</a></li>
 										</ul>
 									</li>
 									<li><a href="#">Contacto</a></li>
 								</ul>
-								<form class="navbar-form pull-right">
-									<button type="submit" class="btn btn-success"><i class="fa fa-search"></i></button>
-									<div class="form-group">
-										<input type="text" placeholder="Buscar" class="form-control">
-									</div>
-								</form>
 							</div>
 						</div>
 					</nav>
 				</div>
-				<div class="col-md-12 col-lg-9">
+				<div class="col-md-12 col-lg-10">
 					<div class="hidden-lg col-md-12">
 						<center>
 							<span class="oswald300">
@@ -154,21 +182,45 @@
 						</div>
 						<br>
 					</div>
-					<div class="hidden-xs hidden-sm hidden-md col-md-12 text-right azul-cesvi-bg oswald300" style="font-size:1.1em;">
+					<div class="hidden-xs hidden-sm hidden-md col-lg-12 text-right azul-cesvi-bg oswald300" style="font-size:1.1em;">
 						<br>
 						<ul style="list-style:none;margin:0;padding:0;">
 							<li style="display:inline-block;margin:0;padding:0;"><a href="conoce-cesvi.html" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Nosotros <span class="caret"></span></a>
-								<ul style="background:transparent;" class="dropdown-menu" role="menu">
+								<ul style="background:transparent;" class="dropdown-menu nosotros-dropdown" role="menu">
 									<li><a href="conoce-cesvi.html" style="color:#fff;">Conoce a CESVI México</a></li>
 									<li><a href="proyeccion-internacional.html" style="color:#fff;">Proyección Internacional</a></li>
 									<li><a href="reconocimientos-obtenidos.html" style="color:#fff;">Reconocimientos Obtenidos</a></li>
 									<li><a href="crash-test.html" style="color:#fff;">Crash Test</a></li>
 								</ul>
 							</li>
-							<li style="display:inline-block;margin:0;padding:0;"><a class="btn btn-primary" href="#">Seguridad Vial</a></li>
-							<li style="display:inline-block;margin:0;padding:0;"><a class="btn btn-primary" href="#">Reparación Automotriz</a></li>
-							<li style="display:inline-block;margin:0;padding:0;"><a class="btn btn-primary" href="#">Aseguradoras</a></li>
-							<li style="display:inline-block;margin:0;padding:0;"><a class="btn btn-primary" href="#">Otros</a></li>
+							<li style="display:inline-block;margin:0;padding:0;"><a href="conoce-cesvi.html" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Seguridad Vial <span class="caret"></span></a>
+								<ul style="background:transparent;" class="dropdown-menu seguridad-dropdown" role="menu">
+									<li><a href="iso-39000.html" style="color:#fff;">ISO-39000</a></li>
+									<li><a href="cursos-empresas.html" style="color:#fff;">Cursos para empresas</a></li>
+									<li><a href="hechos-transito.html" style="color:#fff;">Hechos de Tránsito</a></li>
+								</ul>
+							</li>
+							<li style="display:inline-block;margin:0;padding:0;"><a href="conoce-cesvi.html" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Reparación Automotriz <span class="caret"></span></a>
+								<ul style="background:transparent;" class="dropdown-menu reparacion-dropdown" role="menu">
+									<li><a href=".html" style="color:#fff;">1</a></li>
+									<li><a href=".html" style="color:#fff;">2</a></li>
+									<li><a href=".html" style="color:#fff;">3</a></li>
+								</ul>
+							</li>
+							<li style="display:inline-block;margin:0;padding:0;"><a href="conoce-cesvi.html" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Aseguradoras <span class="caret"></span></a>
+								<ul style="background:transparent;" class="dropdown-menu aseguradoras-dropdown" role="menu">
+									<li><a href=".html" style="color:#fff;">1</a></li>
+									<li><a href=".html" style="color:#fff;">2</a></li>
+									<li><a href=".html" style="color:#fff;">3</a></li>
+								</ul>
+							</li>
+							<li style="display:inline-block;margin:0;padding:0;"><a href="conoce-cesvi.html" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Otros <span class="caret"></span></a>
+								<ul style="background:transparent;" class="dropdown-menu otros-dropdown" role="menu">
+									<li><a href=".html" style="color:#fff;">1</a></li>
+									<li><a href=".html" style="color:#fff;">2</a></li>
+									<li><a href=".html" style="color:#fff;">3</a></li>
+								</ul>
+							</li>
 							<li style="display:inline-block;margin:0;padding:0;"><a class="btn btn-primary" href="#">Contacto</a></li>
 						</ul>
 					</div>
