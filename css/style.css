@@ -97,6 +97,25 @@ body {
   border-bottom-width: 2px;
   font-weight: 400;
 }
+.submenu2{
+ font-size: 1.3em;
+ list-style-type: none;
+ text-align: center;
+ margin: 0;
+ float: left;
+ }
+.submenu2 li{
+  display: inline-block;
+  margin: 0 0 0 15px;
+  vertical-align: middle;
+}
+.submenu2 li a:hover{
+  text-decoration: none;
+  color: #01226f;
+  border-bottom-color: 01226f;
+  border-bottom-style:solid;
+  border-bottom-width: 1px;
+}
 .mision{
   background: url('../images/vision.jpg') !important;
   color: #FFFFFF;
@@ -202,6 +221,8 @@ body {
 	border-radius:5px;
 	color: #FFFFFF;
 }
+
+
 
 <!-- otro css-->
 
