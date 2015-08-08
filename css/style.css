@@ -221,7 +221,29 @@ body {
 	border-radius:5px;
 	color: #FFFFFF;
 }
-
+.textoazul{
+  color: #002F86;
+}
+.module {
+  width: 33%;
+  height: 33%;
+  background: white;
+  position: relative;
+  border: 3px solid #FCDA00;  
+  margin:1px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.module:after {
+  content: '';
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  right: -15px;
+  bottom: -15px;
+  background: white;
+  z-index: -1;
+}
 
 
 <!-- otro css-->
