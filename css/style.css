@@ -227,12 +227,12 @@ body {
 .module {
   width: 33%;
   height: 33%;
-  background: white;
+  background: #fff;
   position: relative;
-  border: 3px solid #FCDA00;  
+  border: 1px solid #fff;  
   margin:1px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .module:after {
   content: '';
@@ -241,12 +241,30 @@ body {
   left: -15px;
   right: -15px;
   bottom: -15px;
-  background: white;
+  background: #fff;
   z-index: -1;
 }
 
+.module1 {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  position: relative;
+  border: 8px solid #FFFFA3;  
+  margin:1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
-<!-- otro css-->
+.divisorBlanco {
+  border-left: 3px solid #fbe791;
+}
+.divisorBlancoRight {
+  border-left: 3px solid #fbe791;
+  border-right: 3px solid #fbe791;
+}
+
+/* otro css */
 
 a {
   color: #F1CE1D;

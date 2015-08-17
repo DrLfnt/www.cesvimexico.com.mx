@@ -63,6 +63,7 @@
 	</script>
 </head>
 <body class="oswald">
+
 	<div id="fb-root"></div>
 	<script>(function(d, s, id) {
 	  var js, fjs = d.getElementsByTagName(s)[0];
@@ -71,14 +72,16 @@
 	  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.3";
 	  fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));</script>
-	<section class="container-fluid" style="background: #FFF100;">
+
+	<section id="FECHA | FACTURACION | ATTN" class="container-fluid" style="background: #f6cf2c;">
 		<div class="container">
-			<div class="col-md-4 text-center"><h5 style="color: #555;"><script>var meses=new Array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"),diasSemana=new Array("Domingo","Lunes","Martes","Mi&eacute;rcoles","Jueves","Viernes","S&aacute;bado"),f=new Date;document.write(diasSemana[f.getDay()]+", "+f.getDate()+" de "+meses[f.getMonth()]+" de "+f.getFullYear());</script></h5></div>
-			<div class="col-md-4 text-center"><h5><a style="color: #555;" href="#">Facturación en Linea</a></h5></div>
-			<div class="col-md-4 text-center"><h5><a style="color: #555;" href="#">Atención al Cliente</a></h5></div>
+			<div class="col-md-4 text-center divisorBlanco"><h5 style="color: #555;"><script>var meses=new Array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"),diasSemana=new Array("Domingo","Lunes","Martes","Mi&eacute;rcoles","Jueves","Viernes","S&aacute;bado"),f=new Date;document.write(diasSemana[f.getDay()]+", "+f.getDate()+" de "+meses[f.getMonth()]+" de "+f.getFullYear());</script></h5></div>
+			<div class="col-md-4 text-center divisorBlanco"><h5><a style="color: #555;" href="#">Facturación en Linea</a></h5></div>
+			<div class="col-md-4 text-center divisorBlancoRight"><h5><a style="color: #555;" href="#">Atención al Cliente</a></h5></div>
 		</div>
 	</section>
-	<section class="container">
+
+	<section id="LOGOTIPO | DESCARGA | LOGIN" class="container">
 		<div class="col-md-3">
 			<center>
 				<a href="index.html"><img width="190" style="margin:25px;" src="images/CESVI-MEXICO-Logotipo.svg" alt="Cesvi México Logotipo"></a>
@@ -87,43 +90,107 @@
 		<div class="col-md-3">
 			<center>
 				<h2 style="margin-top:30px;">
-					<span style="font-size:0.8em;">Nuestro trabajo es</span><br /><span style="font-weight:bolder;">Salvar tu vida</span>
+					<span style="font-size:0.8em;color:#333;">Nuestro trabajo es</span><br /><span style="font-weight:bolder; color:#111;">Salvar tu vida</span>
 				</h2>
 			</center>
 		</div>
 		<div class="col-md-3">
 			<center>
 				<img src="images/revista_home.jpg" alt="Revista Cesvi" style="margin-top:8px;">
-				<h5 class="pull-right"><br />Revista Cesvi México<br /><span style="font-size:1.3em; font-weight:bolder;">Edición Agosto</span><br /><br /><br /><span style=""><a style="color: #555;" href="#">Descarga aquí</a></span></h5>
+				<h5 class="pull-right" style="font-size:.8em;"><br /><span style="color:#002F86;">REVISTA CESVI MÉXICO</span><br /><span style="font-size:1.3em; font-weight:bolder;">Edición Agosto</span><br /><br /><br /><span style=""><a style="color: #002F86;" href="#">Descarga aquí</a></span></h5>
 			</center>
 		</div>
 		<div class="col-md-3">
 			<center>
 				<h3>Login</h3>
-				<p>Usuario: <input class="pull-right" type="text"></p>
-				<p>Password: <input class="pull-right" type="password"></p>
+				<p>Usuario: <input  placeholder="Email" class="pull-right" type="text"></p>
+				<p>Password: <input  placeholder="Password" class="pull-right" type="password"></p>
 			</center>
 		</div>
 	</section>
-	<section class="container-fluid" style="background: #FFF100;">
+
+	<section id="MENU" class="container-fluid" style="background: #f6cf2c;">
 		<div class="container">
-			<div class="col-md-2 text-center"><h5><a style="color: #555;" href="#">Inicio</a></h5></div>
-			<div class="col-md-2 text-center"><h5><a style="color: #555;" href="#">Seguridad Vial</a></h5></div>
-			<div class="col-md-2 text-center"><h5><a style="color: #555;" href="#">Reparación Automotriz</a></h5></div>
-			<div class="col-md-2 text-center"><h5><a style="color: #555;" href="#">Aseguradoras</a></h5></div>
-			<div class="col-md-2 text-center"><h5><a style="color: #555;" href="#">Nuevos Desarrollos</a></h5></div>
-			<div class="col-md-2 text-center"><h5><a style="color: #555;" href="#">Experiencia Cesvi</a></h5></div>
+			<div class="row">
+				<div class="col-md-12">
+					<ul class="nav nav-justified">
+				      <li class="dropdown divisorBlanco">
+				        <a style="color: #555;" href="#">
+				          <h5>Inicio</h5>
+				        </a>
+				      </li>
+				      <li class="dropdown divisorBlanco">
+				        <a style="color: #555;" id="drop2" href="#" class="dropdown-toggle" data-toggle="dropdown">
+				          <h5>Seguridad Vial</h5>
+				        </a>
+				        <ul id="menu2" class="dropdown-menu" aria-labelledby="drop2">
+				          <li><a href="#">Norma ISO 39001:2012</a></li>
+				          <li><a href="#">Curso para Empresas</a></li>
+				          <li><a href="#">Servicios de Investigación</a></li>
+				          <li><a href="#">Dinámicas para niños</a></li>
+				          <li><a href="#">Observatorio Vial</a></li>
+				        </ul>
+				      </li>
+				      <li class="dropdown divisorBlanco">
+				        <a style="color: #555;" id="drop3" href="#" class="dropdown-toggle" data-toggle="dropdown">
+				          <h5>Reparación Automotriz</h5>
+				        </a>
+				        <ul id="menu3" class="dropdown-menu" aria-labelledby="drop3">
+				          <li><a href="#">Plan de Talleres Cesvi México</a></li>
+				          <li><a href="#">Cusrsos para Talleres Automotrices</a></li>
+				          <li><a href="#">Consultoría y Certificación</a></li>
+				          <li><a href="#">Eres un Taller Inscrito</a></li>
+				          <li><a href="#">Directorio de Talleres Automotrices</a></li>
+				        </ul>
+				      </li>
+				      <li class="dropdown divisorBlanco">
+				        <a style="color: #555;" id="drop4" href="#" class="dropdown-toggle" data-toggle="dropdown">
+				          <h5>Aseguradoras</h5>
+				        </a>
+				        <ul id="menu4" class="dropdown-menu" aria-labelledby="drop4">
+				          <li><a href="#">Servicios de Ajuste</a></li>
+				          <li><a href="#">Servicios de Valuación</a></li>
+				          <li><a href="#">Cursos de Capacitación</a></li>
+				        </ul>
+				      </li>
+				      <li class="dropdown divisorBlanco">
+				        <a style="color: #555;" id="drop5" href="#" class="dropdown-toggle" data-toggle="dropdown">
+				          <h5>Nuevos Desarrollos</h5>
+				        </a>
+				        <ul id="menu5" class="dropdown-menu" aria-labelledby="drop5">
+				          <li><a href="#">Link</a></li>
+				          <li><a href="#">Link</a></li>
+				          <li><a href="#">Link</a></li>
+				          <li><a href="#">Link</a></li>
+				        </ul>
+				      </li>
+				      <li class="dropdown divisorBlancoRight">
+				        <a style="color: #555;" id="drop6" href="#" class="dropdown-toggle" data-toggle="dropdown">
+				          <h5>Experiencia Cesvi</h5>
+				        </a>
+				        <ul id="menu6" class="dropdown-menu" aria-labelledby="drop6">
+				          <li><a href="#">Link</a></li>
+				          <li><a href="#">Link</a></li>
+				          <li><a href="#">Link</a></li>
+				          <li><a href="#">Link</a></li>
+				        </ul>
+				      </li>
+				    </ul>
+				</div>
+			</div>
 		</div>
 	</section>
+
 	<hr style="border:none;">
-	<section id="CONTENIDO GENERAL" class="container">
+
+	<section id="CONTENIDO" class="container">
 		<div class="row">
-			<section class="col-md-9">
+			<section id="CONTENIDO PRINCIPAL" class="col-md-9">
 				<div class="col-md-12">
 					Contenido editable de cada seccion en una columna de 12 para meter grilla de cualquier combinacion que sume 12
 				</div>
 			</section>
-			<aside class="col-md-3">
+			<aside id="CONTENIDO SIDEBAR" class="col-md-3">
 				<div class="col-md-12">
 					<div class="box-rounded-blue">
 						<span style="font-size:1em; color: #FFF100;" class="oswald400">¿Buscas algo más específico?</span><br />
@@ -212,14 +279,16 @@
 			</aside>
 		</div>
 	</section>
-	<section class="container">
+
+	<section id="BANNER PUBLICIDAD" class="container">
 		<div class="row">
 			<section class="col-md-12">
 				<img src="images/banner-top.jpg" width="100%" class="img-responsive" alt="banner publicidad">
 			</section>
 		</div>
 	</section>
-	<section class="container-fluid">
+
+	<section id="BANNER ASEGURADORAS" class="container-fluid">
 		<div class="row">
 			<div class="col-md-12 bg-partners">
 				<div class="col-xs-6 col-md-2">
@@ -243,7 +312,8 @@
 			</div>
 		</div>
 	</section>
-	<section class="container-fluid">
+	
+	<section id="FOOTER" class="container-fluid">
 		<div class="row bg-footer">
 			<div class="hidden-md hidden-lg col-md-12">
 				<div class="col-md-2">
