@@ -9,6 +9,9 @@ html {
 body {
 	font-size: 1rem;
 }
+.trebuchet {
+	font-family: 'Trebuchet MS', sans-serif ;
+}
 .zoom{
   transition: 1.5s ease;
   -moz-transition: 1.5s ease; /* Firefox */
@@ -266,6 +269,14 @@ body {
 
 /* otro css */
 
+.copyright {
+  color: #002F86;
+}
+
+.copyright:hover {
+  color: #011842;
+}
+
 a {
   color: #F1CE1D;
   -webkit-transition: color 300ms, background-color 300ms;
@@ -278,6 +289,42 @@ a {
 a:hover, a:focus {
   color: #d43133;
 }
+
+.fontSize1-5em {
+	font-size: 1.5em;
+}
+.fontSize2em {
+	font-size: 2em;
+}
+.fontSize2-5em {
+	font-size: 2.5em;
+}
+.fontSize3em {
+	font-size: 3em;
+}
+.fontSize3-5em {
+	font-size: 3.5em;
+}
+.fontSize4em {
+	font-size: 4em;
+}
+.fontSize4-5em {
+	font-size: 4.5em;
+}
+.fontSize5em {
+	font-size: 5em;
+}
+.fontSize5-5em {
+	font-size: 5.5em;
+}
+.fontSize6em {
+	font-size: 6em;
+}
+
+
+
+
+/* ------------------------ */
 #feature {
   background: #f2f2f2;
   padding-bottom: 40px;
