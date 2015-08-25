@@ -227,6 +227,11 @@ body {
 .textoazul{
   color: #002F86;
 }
+.indicativo-faltante {
+  color: #FF0000;
+  font-style: italic;
+  font-weight: bolder;
+}
 .module {
   width: 33%;
   height: 33%;
