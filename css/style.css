@@ -227,7 +227,7 @@ body {
 .textoazul{
   color: #002F86;
 }
-.indicativo-faltante {
+.faltante {
   color: #FF0000;
   font-style: italic;
   font-weight: bolder;
