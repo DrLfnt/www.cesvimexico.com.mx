@@ -1,5 +1,5 @@
 User-agent: *
-Disallow: /noticias/wp-admin/
+Disallow:
 User-agent: Googlebot
 Disallow: 
 User-agent: googlebot-image
