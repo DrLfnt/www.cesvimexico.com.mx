@@ -274,6 +274,173 @@ body {
 
 /* otro css */
 
+.textoMenuSuperior {
+  color: #555;
+}
+.fondoMenuSuperior{
+  background: #f6cf2c;
+}
+.logotipoCesvi {
+  margin:25px;
+  width: 190px;
+}
+.h2SpanSlogan {
+  font-size:0.8em;
+  color:#333;
+}
+.h2SpanSlogan2 {
+  font-weight:bolder;
+  color:#111;
+}
+.marginTop{
+  margin-top:30px;
+}
+.imagenRevistaCesvi{
+  margin-top: 8px;
+}
+.h5RevistaCesvi {
+  font-size: .8em;
+}
+.spanRevistaCesvi {
+  color: #002F86;
+}
+.spanMesRevistaCesvi {
+  font-size:1.3em;
+  font-weight:bolder;
+}
+.descargaRevistaCesvi {
+  color: #002F86;
+}
+section div div div ul li a {
+  color: #555 !important;
+}
+.borderNone {
+  border: none;
+}
+.imagenCarousel1 {
+  background-image: url(../images/bg1.jpg);
+  background-size: cover;
+}
+.imagenCarousel2 {
+  background-image: url(../images/bg2.jpg);
+  background-size: cover;
+}
+.imagenCarousel3 {
+  background-image: url(../images/bg3.jpg);
+  background-size: cover;
+}
+.imagenCarousel4 {
+  background-image: url(../images/bg4.jpg);
+  background-size: cover;
+}
+.h1Carousel {
+  text-shadow: 2px 2px 2px #000000;
+}
+.pCarousel {
+  text-shadow: 2px 2px 2px #000000;
+}
+.imgHotspots {
+  border-top:solid 5px #FCDA00;
+}
+.h2ImgHotspots {
+  width: 245px; 
+}
+.fontWeightBolder{
+  font-weight: bolder;
+}
+.imgHotspotsBorderTop{
+  border-top:solid 5px #FCDA00;
+}
+.btnEntrar {
+  background:#FCDA00;
+  color:#002F86;
+}
+.w100Percent {
+  width: 100%;
+}
+.height0{
+  height:0;
+}
+.fontWeightBolder{
+  font-weight: bolder;
+}
+.pHotspots {
+  font-weight:bolder;
+  font-size:.9em;
+}
+.mL-30 {
+  margin-left: -30px;
+}
+.aOrange {
+  color: orange!important;
+}
+.listStyleNone {
+  list-style: none;
+}
+.textAlignLeft{
+  text-align:left;
+}
+.spanSidebarHead {
+  font-size:1em;
+  color: #FFF100;
+}
+.fontSizeDot85em{
+  font-size: .85em;
+}
+.h4Orange {
+  color: orange;
+}
+.border1px{
+  border: 1px;
+}
+.labelInput{
+  width:105px;
+  text-align:left;
+}
+.youtubeCesviTV{
+  background:red;
+  color:white;
+}
+.divSitiosInteres {
+  background:#002F86;
+  padding: 10px;
+}
+.aSitiosInteres {
+  color:white;
+  margin:10px;
+}
+.divSiguenos {
+  background:#002F86;
+  padding: 10px;
+}
+.h4Siguenos {
+  color:white;
+  margin:10px;
+}
+.h4Siguenos:hover{
+  color: white;
+  text-decoration: none;
+}
+.w50px{
+  width: 50px;
+}
+.yellow{
+  color: yellow;
+}
+.white :hover{
+  color: white;
+}
+.pCopyright{
+  margin-top:10px;
+}
+.textDecorationNone{
+  text-decoration: none;
+}
+
+
+
+
+
 .copyright {
   color: #002F86;
 }
