@@ -171,6 +171,9 @@ body {
   left: 700px;
   top: 60px;
 }
+.bold {
+  font-weight: bolder;
+}
 /*
 .topShadowInset {
     -webkit-box-shadow: inset 0px 2px 5px 0px rgba(50, 50, 50, 0.5);
