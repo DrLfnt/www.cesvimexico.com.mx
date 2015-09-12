@@ -69,8 +69,14 @@ body {
     height: 10px !important;
     background-image: url('../images/pleca_cesvi.jpg') !important;
     background-repeat: repeat-x !important;
-
 }
+
+.dib {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
 .pleca-cesvi {
   background: url('../images/pleca_cesvi.jpg') repeat-y  !important;
 }
