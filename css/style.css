@@ -227,11 +227,34 @@ body {
 	color: #002F86;
 	font-weight:bold !important;
 }
+.information-img {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 50%;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+.information-text-head{
+  font-size: 16px;
+}
+.box-information-top {
+  background-color: #B7C1C2;
+  padding: 10px 0px 10px 20px;
+  color: #FFFFFF;
+}
+.box-information {
+  background-color: #002F86;
+  padding: 10px 0px 10px 0px;
+  color: #FFFFFF;
+}
 .box-rounded-blue {
-	background-color: #002F86;
-	padding: 10px 0px 10px 20px;
-	border-radius:5px;
-	color: #FFFFFF;
+  background-color: #002F86;
+  padding: 10px 0px 10px 20px;
+  border-radius:5px;
+  color: #FFFFFF;
 }
 .textoazul{
   color: #002F86;
