@@ -75,6 +75,14 @@ body {
 .sloganH2 {
   margin-top:30px;
 }
+.sloganSpan333 {
+  color:#333;
+  font-size:0.8em;
+}
+.sloganSpan111 {
+  color:#111;
+  font-weight:bolder;
+}
 .hr {
     margin: 0 !important;
     padding: 0 !important;
