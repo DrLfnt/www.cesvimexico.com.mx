@@ -72,6 +72,9 @@ body {
    width: 190;
    margin: 25px;
 }
+.sloganH2 {
+  margin-top:30px;
+}
 .hr {
     margin: 0 !important;
     padding: 0 !important;
