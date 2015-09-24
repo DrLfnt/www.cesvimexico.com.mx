@@ -68,6 +68,10 @@ body {
 .bgf6cf2c {
   background: #f6cf2c;
 }
+.imgLogoSVG {
+   width: 190;
+   margin: 25px;
+}
 .hr {
     margin: 0 !important;
     padding: 0 !important;
