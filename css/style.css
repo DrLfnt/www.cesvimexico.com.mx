@@ -96,6 +96,9 @@ body {
 .borderNone {
   border: none;
 }
+.fs1Dot20em {
+  font-size: 1.2em;
+}
 .fsDot85em {
   font-size: .85em;
 }
@@ -107,6 +110,12 @@ body {
 }
 .bgFCDA00c002F86 {
   background:#FCDA00; color:#002F86;
+}
+.m0 {
+  margin: 0;
+}
+.lsNone {
+  list-style: none;
 }
 .hr {
     margin: 0 !important;
