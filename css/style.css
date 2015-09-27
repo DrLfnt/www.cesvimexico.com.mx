@@ -235,6 +235,13 @@ body {
 .bold {
   font-weight: bolder;
 }
+.formLogin {
+  margin-top: .9rem;
+}
+.btnLogin {
+  margin-top: .3rem;
+  width: 52%!important;
+}
 /*
 .topShadowInset {
     -webkit-box-shadow: inset 0px 2px 5px 0px rgba(50, 50, 50, 0.5);
