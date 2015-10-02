@@ -4600,7 +4600,8 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: orange;
 }
 .breadcrumb > .active {
-  color: #f6cf2c;
+  /* antes #f6cf2c */
+  color: orange;
 }
 .breadcrumb > .active:hover{
   color: orange;

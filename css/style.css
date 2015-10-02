@@ -544,7 +544,8 @@ section div div div ul li a {
 }
 
 a {
-  color: #F1CE1D;
+  /* antes #F1CE1D */
+  color: orange;
   -webkit-transition: color 300ms, background-color 300ms;
   -moz-transition: color 300ms, background-color 300ms;
   -o-transition:  color 300ms, background-color 300ms;
