@@ -9,6 +9,9 @@ html {
 body {
 	font-size: 1rem;
 }
+.placeholder {
+  color: #E66D01!important;
+}
 .trebuchet {
 	font-family: 'Trebuchet MS', sans-serif ;
 }
@@ -36,7 +39,7 @@ body {
   padding-bottom: 5px;
 }
 .azul-cesvi-bg a {
-   background: #7499de;
+  background: #7499de;
   background-image: -webkit-linear-gradient(top, #7499de, #002f87);
   background-image: -moz-linear-gradient(top, #7499de, #002f87);
   background-image: -ms-linear-gradient(top, #7499de, #002f87);

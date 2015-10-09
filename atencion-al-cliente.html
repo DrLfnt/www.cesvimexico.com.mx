@@ -245,71 +245,87 @@
 					</div>
 				</div>
 				<hr>
-				<div class="col-md-6">
-					<div class="col-md-3">
-						<span class="oswald700 fontSize2-5 bold">Nombre</span>
+				<form method="post" action="web_contacto.php">
+					<div class="col-md-6">
+						<div class="col-md-3">
+							<span class="oswald700 fontSize2-5 bold">Nombre</span>
+						</div>
+						<div class="col-md-9 placeholder">
+							<input name="nombre" style="width:100%;" placeholder=" Nombre ó Nombres" type="text"><br /><br />
+						</div>
+						<div class="col-md-3">
+							<span class="oswald700 fontSize2-5 bold">Tel. Celular</span>
+						</div>
+						<div class="col-md-9 placeholder">
+							<input name="telefonoCelular" style="width:100%;" placeholder=" Teléfono Celular" type="tel"><br /><br />
+						</div>
+						<div class="col-md-3">
+							<span class="oswald700 fontSize2-5 bold">Empresa</span>
+						</div>
+						<div class="col-md-9 placeholder">
+							<input name="empresa" style="width:100%;" placeholder=" Nombre de la Empresa" type="text"><br /><br />
+						</div>
+						<div class="col-md-3">
+							<span class="oswald700 fontSize2-5 bold">Cargo</span>
+						</div>
+						<div class="col-md-9 placeholder">
+							<input name="cargoEmpresa" style="width:100%;" placeholder=" Cargo en la Empresa" type="text"><br /><br />
+						</div>
 					</div>
-					<div class="col-md-9"><input style="width:100%;" type="text"><br /><br />
+					<div class="col-md-6">
+						<div class="col-md-3">
+							<span class="oswald700 fontSize2-5 bold">Apellido</span>
+						</div>
+						<div class="col-md-9 placeholder">
+							<input name="apellido" style="width:100%;" placeholder=" Apellidos" type="text"><br /><br />
+						</div>
+						<div class="col-md-3">
+							<span class="oswald700 fontSize2-5 bold">Tel. Oficinas</span>
+						</div>
+						<div class="col-md-9 placeholder">
+							<input name="telefonoEmpresa" style="width:100%;" placeholder=" Teléfono de Oficina" type="tel"><br /><br />
+						</div>
+						<div class="col-md-3">
+							<span class="oswald700 fontSize2-5 bold">Correo</span>
+						</div>
+						<div class="col-md-9 placeholder">
+							<input name="emailEmpresa" style="width:100%;" placeholder=" Correo Empresarial" type="email"><br /><br />
+						</div>
+						<div class="col-md-3">
+							<span class="oswald700 fontSize2-5 bold">Correo</span>
+						</div>
+						<div class="col-md-9 placeholder">
+							<input name="emailPersonal" style="width:100%;" placeholder=" Correo Personal" type="email"><br /><br />
+						</div>
 					</div>
-					<div class="col-md-3">
-						<span class="oswald700 fontSize2-5 bold">Tel. Celular</span>
-					</div>
-					<div class="col-md-9"><input style="width:100%;" type="text"><br /><br />
-					</div>
-					<div class="col-md-3">
-						<span class="oswald700 fontSize2-5 bold">Empresa</span>
-					</div>
-					<div class="col-md-9"><input style="width:100%;" type="text"><br /><br />
-					</div>
-					<div class="col-md-3">
-						<span class="oswald700 fontSize2-5 bold">Cargo</span>
-					</div>
-					<div class="col-md-9"><input style="width:100%;" type="text"><br /><br />
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="col-md-3">
-						<span class="oswald700 fontSize2-5 bold">Apellido</span>
-					</div>
-					<div class="col-md-9"><input style="width:100%;" type="text"><br /><br />
-					</div>
-					<div class="col-md-3">
-						<span class="oswald700 fontSize2-5 bold">Tel. Oficinas</span>
-					</div>
-					<div class="col-md-9"><input style="width:100%;" type="text"><br /><br />
-					</div>
-					<div class="col-md-3">
-						<span class="oswald700 fontSize2-5 bold">Correo</span>
-					</div>
-					<div class="col-md-9"><input style="width:100%;" type="text"><br /><br />
-					</div>
-					<div class="col-md-3">
-						<span class="oswald700 fontSize2-5 bold">Correo</span>
-					</div>
-					<div class="col-md-9"><input style="width:100%;" type="text"><br /><br />
-					</div>
-				</div>
-				<div class="col-md-12">
-					<h2>
-						<i style="color:black!important;">
-							Escriba aquí su comentario
-						</i>
-					</h2>
-					<input style="width:100%; height: 100px;" type="text">
-					<br /><br />
-					<div class="col-md-6"></div>
-					<div class="col-md-6 dib">
-						<p class="bold dib"><i>Consulta nuestro <a href="aviso-de-privacidad.html">aviso de privacidad </a> </i></p>
-						<button class="dib pull-right btnEntrar btn btn-primary">
-							ENVIAR
-						</button>
+					<div class="col-md-12">
+						<h2>
+							<i style="color:black!important;">
+								Escriba aquí su comentario
+							</i>
+						</h2>
+						<span class="oswald700 fontSize2-5 bold">Asunto</span>
+						<span class="placeholder">
+							<input name="asunto" style="width:100%;" placeholder=" Cuál es el motivo de su Mail" type="text"><br /><br />
+						</span>
+						<span class="placeholder">
+							<textarea name="comentario" style="width:100%; height: 100px;" placeholder=" Escribenos tu consulta ó comentario y será respondido a la brevedad" type="text"></textarea>
+						</span>
+						<div class="col-md-6"></div>
+						<div class="col-md-6 dib">
+							<p class="bold dib"><i>Consulta nuestro <a href="aviso-de-privacidad.html">aviso de privacidad </a> </i></p>
+							<button name="enviar" class="dib pull-right btnEntrar btn btn-primary">
+								ENVIAR
+							</button>
+							<br />
+							<br />
+						</div>
 						<br />
-						<br />
+						<span class="zoom"><a href="index.html"><img height="20px" src="images/paginator-arrow-back.png" alt=""></a></span>
+						<hr style="border-style: solid; border-color: transparent;">
 					</div>
-					<br />
-					<span class="zoom"><a href="index.html"><img height="20px" src="images/paginator-arrow-back.png" alt=""></a></span>
-					<hr style="border-style: solid; border-color: transparent;">
-				</div>
+				</form>
+
 			</section>
 		</div>
 	</section>
