@@ -72,8 +72,8 @@ body {
   background: #f6cf2c;
 }
 .imgLogoSVG {
-   width: 190;
-   margin: 25px;
+   width: 190px !important;
+   margin: 25px !important;
 }
 .sloganH2 {
   margin-top:30px;
