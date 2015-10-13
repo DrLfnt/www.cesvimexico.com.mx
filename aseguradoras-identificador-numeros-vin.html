@@ -71,7 +71,7 @@
 	  fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));</script>
 
-	<section id="FECHA | FACTURACION | SAT | SISTEMA DE PROVEEDORES | ATTN" class="container-fluid fondoMenuSuperior">
+	<section id="FECHA | FACTURACION | SAT | SISTEMA DE PROVEEDORES | ATTN |*Desktop*|" class="hidden-xs hidden-sm container-fluid fondoMenuSuperior">
 		<div class="container">
 			<div class="col-md-3 text-center divisorBlanco">
 				<h5 class="textoMenuSuperior"><script>var meses=new Array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"),diasSemana=new Array("Domingo","Lunes","Martes","Mi&eacute;rcoles","Jueves","Viernes","S&aacute;bado"),f=new Date;document.write(diasSemana[f.getDay()]+", "+f.getDate()+" de "+meses[f.getMonth()]+" de "+f.getFullYear());</script></h5>
@@ -91,7 +91,13 @@
 		</div>
 	</section>
 
-	<section id="LOGOTIPO | DESCARGA | LOGIN" class="container">
+	<section id="FECHA | FACTURACION | SAT | SISTEMA DE PROVEEDORES | ATTN |*Smart*|" class="hidden-md hidden-lg container-fluid fondoMenuSuperior text-center">
+		<span class="textoMenuSuperior">
+			<script>var meses=new Array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"),diasSemana=new Array("Domingo","Lunes","Martes","Mi&eacute;rcoles","Jueves","Viernes","S&aacute;bado"),f=new Date;document.write(diasSemana[f.getDay()]+", "+f.getDate()+" de "+meses[f.getMonth()]+" de "+f.getFullYear());</script>
+		</span>
+	</section>
+
+	<section id="LOGOTIPO | DESCARGA | LOGIN |*Desktop*|" class="hidden-xs hidden-sm container">
 		<div class="col-md-3">
 			<center>
 				<a href="index.html"><img class="imgLogoSVG zoom" src="images/CESVI-MEXICO-Logotipo.png" alt="Cesvi México Logotipo"></a>
@@ -119,7 +125,46 @@
 		</div>
 	</section>
 
-	<section id="MENU" class="container-fluid bgf6cf2c">
+	<section id="LOGOTIPO | DESCARGA | LOGIN |*Smart*|" class="hidden-md hidden-lg container">
+		<div class="col-xs-12 col-sm-12">
+			<center>
+				<a href="index.html"><img class="imgLogoSVG zoom" src="images/CESVI-MEXICO-Logotipo.png" alt="Cesvi México Logotipo"></a>
+				<h2 class="sloganH2Smart text-center">
+					<span class="text-center sloganSpan333">Nuestro trabajo es</span><br />
+					<span class="text-center sloganSpan111">Salvar tu vida</span>
+				</h2>
+			</center>
+		</div>
+		<div class="col-xs-6 col-sm-6">
+			<center>
+				<br />
+				<img src="images/revista_home.jpg" alt="Revista Cesvi" class="img-responsive">
+			</center>
+		</div>
+		<div class="col-xs-6 col-sm-6">
+			<center>
+				<h5 class="fsDot80em">
+					<br />
+					<span class="c002F86">REVISTA CESVI MÉXICO</span>
+					<br />
+					<span class="fszfwbolder">Edición Agosto</span>
+					<br /><br />
+					<span><a class="c002F86" href="http://cesvimexico.com.mx/revista/cesvi40.pdf" target="_blank">Descarga aquí</a></span>
+				</h5>
+				<br />
+			</center>
+		</div>
+		
+		<div class="col-md-3">
+			<center class="hidden formLogin">
+				<p>Usuario: <input placeholder=" Email" class="pull-right" type="text"></p>
+				<p>Contraseña: <input placeholder=" Contraseña" class="pull-right" type="password"></p>
+				<button class="btnLogin pull-right btnEntrar btn btn-primary">LOGIN</button>
+			</center>
+		</div>
+	</section>
+
+	<section id="MENU |*Desktop*|" class="hidden-xs hidden-sm container-fluid bgf6cf2c">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -192,6 +237,75 @@
 				</div>
 			</div>
 		</div>
+	</section>
+
+	<section id="MENU |*Smart*|" class="hidden-md hidden-lg container-fluid bgf6cf2c">
+		<br />
+		<nav class="fondoMenuSuperior navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#principal" aria-expanded="false">
+						<span class="sr-only">Navigación</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand active">
+						<span class="textoMenuSuperior bold">
+							Menu
+						</span>
+					</a>
+				</div>
+				<div class="collapse navbar-collapse" id="principal">
+					<ul class="nav navbar-nav">
+						<li><a class="textoMenuSuperior bold" href="index.html">Inicio</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle textoSuperior bold" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">¿Quiénes somos? <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="experiencia-conoce-cesvi-mexico.html">Conoce a Cesvi México</a></li>
+								<li><a href="experiencia-proyeccion-internacional.html">Proyección Internacional</a></li>
+								<li><a href="experiencia-reconocimientos-obtenidos.html">Reconocimientos Obtenidos</a></li>
+								<li><a href="experiencia-prueba-de-impacto.html">Pruebas de Impacto</a></li>
+								<li><a href="experiencia-publicaciones.html">Publicaciones</a></li>
+								<li><a href="experiencia-eventos.html">Eventos</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle textoSuperior bold" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Seguridad Vial <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="seguridad-vial-iso.html">Norma ISO 39001:2012</a></li>
+								<li><a href="seguridad-vial-cursos-empresas.html">Curso para Empresas</a></li>
+								<li><a href="seguridad-vial-investigacion.html">Servicios de Investigación</a></li>
+								<li><a href="seguridad-vial-dinamicas.html">Dinámicas para niños</a></li>
+								<li><a href="http://www.observatoriovial.com/" target="_blank">Observatorio Vial</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle textoSuperior bold" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Reparación Automotriz <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="reparacion-plan-talleres.html">Plan de Talleres Cesvi México</a></li>
+								<li><a href="reparacion-cursos.html">Cursos para Talleres Automotrices</a></li>
+								<li><a href="reparacion-consultoria-certificacion.html">Consultoría y Certificación</a></li>
+								<li><a href="reparacion-talleres-inscritos.html">Eres un Taller Inscrito</a></li>
+								<li><a href="http://www.cesvimexico.com.mx/obs_talleres/" target="_blank">Directorio de Talleres Automotrices</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle textoSuperior bold" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Servicios para Aseguradoras <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="aseguradoras-servicios-ajuste.html">Servicios de Ajuste</a></li>
+								<li><a href="aseguradoras-servicios-valuacion.html">Servicios de Valuación</a></li>
+								<li><a href="aseguradoras-identificador-numeros-vin.html">Identificación de Números VIN</a></li>
+							</ul>
+						</li>
+						<li><a class="textoMenuSuperior bold" href="http://www.cesvimexico.com.mx/facturas/" target="_blank">Facturación en Linea</a></li>
+						<li><a class="textoMenuSuperior bold" href="http://www.cesvimexico.com.mx/aseguradoras/pass.php" target="_blank">SAT</a></li>
+						<li><a class="textoMenuSuperior bold" href="http://www.cesvimexico.com.mx/proveedores/pass.php" target="_blank">Sistema de Proveedores</a></li>
+						<li><a class="textoMenuSuperior bold" href="atencion-al-cliente.html" target="_blank">Atención al Cliente</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 	</section>
 
 	<hr class="borderNone">

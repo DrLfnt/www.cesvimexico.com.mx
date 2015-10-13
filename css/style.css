@@ -78,6 +78,10 @@ body {
 .sloganH2 {
   margin-top:30px;
 }
+.sloganH2Smart {
+  margin-top:-15px;
+  
+}
 .sloganSpan333 {
   color:#333;
   font-size:0.8em;
