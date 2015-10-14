@@ -194,51 +194,6 @@ body {
   text-shadow: 2px 2px 2px #000000;
   font-size: 1.1em;
 }
-.nosotros-dropdown {
-  border: none;
-  background: transparent!important;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  left: 70px;
-  top: 60px;
-}
-.seguridad-dropdown {
-  border: none;
-  background: transparent!important;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  left: 192px;
-  top: 60px;
-}
-.reparacion-dropdown {
-  border: none;
-  background: transparent!important;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  left: 345px;
-  top: 60px;
-}
-.aseguradoras-dropdown {
-  border: none;
-  background: transparent!important;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  left: 550px;
-  top: 60px;
-}
-.otros-dropdown {
-  border: none;
-  background: transparent!important;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  left: 700px;
-  top: 60px;
-}
 .bold {
   font-weight: bolder;
 }
@@ -284,7 +239,13 @@ body {
 	background: #E8ECEB;
 }
 .max-height {
+  margin: 0 auto;
+  
 	max-height: 90px;
+}
+.max-heightSmart {
+  margin: 0 auto;
+  max-height: 25px;
 }
 .bg-footer {
 	background: #002F86;
@@ -531,23 +492,30 @@ section div div div ul li a {
 .white :hover{
   color: white;
 }
+.pFooterSmartAddress {
+  font-size: .85em;
+}
+.pFooterSmart {
+  font-size: .8em;
+}
 .pCopyright{
   margin-top:10px;
+}
+.pCopyrightSmart{
+  margin-top:15px;
 }
 .textDecorationNone{
   text-decoration: none;
 }
-
-
-
-
-
+.copyrightSmart {
+  font-size: .8em;
+}
 .copyright {
-  color: #002F86;
+  color: #002F86!important;
 }
 
 .copyright:hover {
-  color: #011842;
+  color: #011842!important;
 }
 
 a {
