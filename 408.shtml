@@ -140,6 +140,7 @@
 			<center>
 				<br />
 				<img src="images/revista_home.jpg" alt="Revista Cesvi" class="img-responsive">
+				<br />
 			</center>
 		</div>
 		<div class="col-xs-6 col-sm-6">
@@ -149,7 +150,7 @@
 					<span class="c002F86">REVISTA CESVI MÉXICO</span>
 					<br />
 					<span class="fszfwbolder">Edición Agosto</span>
-					<br /><br />
+					<br /><br /><br />
 					<span><a class="c002F86" href="http://cesvimexico.com.mx/revista/cesvi40.pdf" target="_blank">Descarga aquí</a></span>
 				</h5>
 				<br />
