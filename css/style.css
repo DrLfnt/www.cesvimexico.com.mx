@@ -1755,7 +1755,23 @@ shortcodes page css
     min-width: 100%;
     height: 400px;
   }
-  .module {
+  .media{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+  }
+  .media-left{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+  }
+  .media-object{
+    margin-bottom: 1em;
+  }
+  .media-body{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
     width: 100%;
   }
 }
