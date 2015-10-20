@@ -91,7 +91,27 @@
 		</div>
 	</section>
 
-	<section id="MENU |*Smart*|" class="hidden-md hidden-lg container-fluid bgf6cf2c">
+	<section id="FECHA | FACTURACION | SAT | SISTEMA DE PROVEEDORES | ATTN |*Desktop*|" class="visible-sm container-fluid fondoMenuSuperior">
+		<div class="container">
+			<div class="col-sm-3 text-center divisorBlanco">
+				<h5 class="textoMenuSuperior"><script>var meses=new Array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"),diasSemana=new Array("Domingo","Lunes","Martes","Mi&eacute;rcoles","Jueves","Viernes","S&aacute;bado"),f=new Date;document.write(diasSemana[f.getDay()]+", "+f.getDate()+" de "+meses[f.getMonth()]+" de "+f.getFullYear());</script></h5>
+			</div>
+			<div class="col-sm-2 text-center divisorBlanco">
+				<h5><a class="textoMenuSuperior" href="http://www.cesvimexico.com.mx/facturas/" target="_blank">Facturación en Linea</a></h5>
+			</div>
+			<div class="col-sm-1 text-center divisorBlanco">
+				<h5><a class="textoMenuSuperior" href="http://www.cesvimexico.com.mx/aseguradoras/pass.php" target="_blank">SAT<br />&nbsp;</a></h5>
+			</div>
+			<div class="col-sm-2 text-center divisorBlanco">
+				<h5><a class="textoMenuSuperior" href="http://www.cesvimexico.com.mx/proveedores/pass.php" target="_blank">Sistema de Proveedores</a></h5>
+			</div>
+			<div class="col-sm-4 text-center divisorBlancoRight">
+				<h5><a class="textoMenuSuperior" href="atencion-al-cliente.html">Atención al<br /> Cliente</a></h5>
+			</div>
+		</div>
+	</section>
+
+	<section id="MENU |*Smart*|" class="hidden-sm hidden-md hidden-lg container-fluid bgf6cf2c">
 		<nav class="fondoMenuSuperior navbar navbar-default navbar-fixed-top">
 			<div class="container-fluid">
 				<div class="navbar-header">
@@ -228,7 +248,7 @@
 		</div>
 	</section>
 
-	<section id="MENU |*Desktop*|" class="hidden-xs hidden-sm container-fluid bgf6cf2c">
+	<section id="MENU |*Desktop*|" class="hidden-xs container-fluid bgf6cf2c">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
