@@ -1595,6 +1595,12 @@ shortcodes page css
     min-width: 100%;
     height: 400px;
   }
+  .module{
+    width: 100%;
+  }
+  .module1{
+    width: 100%;
+  }
   .media{
     display: inline-block;
     *display: inline;
