@@ -1,0 +1,21 @@
+/* cesvimexico.com.mx | Reparación automotriz, Manejo Defensivo, Seguridad Vial, Evaluación de riesgos en Flotillas, Campañas de Educación Vial, Reconstrucción de accidentes de tránsito, Década de la seguridad vial, Dictámenes técnicos, Manejo Seguro, Consultoría flotillas, Consultoría para compañías de seguros, Consultoría para talleres, Capacitación para compañías de seguros, Plan de talleres, Talleres de reparación automotriz, Disminución de siniestralidad, Crash test, Capacitación para talleres de hojalatería y pintura, Guía de deslinde, Talleres de Equipo Pesado, Valuación de automóviles, Tabuladores de reparación, Curso virtuales para aseguradoras, Cesviteca, Identificación Vehicular, Certificación de Talleres, Certificación de Localizadores, Evaluación de talleres, Certificación CMX2009 - http://cesvimexico.com.mx */
+
+/* Website Development team */
+
+	FrontEnd Developer - Digital Strategist - UX & UI Designer: Argenis Oldair Palacios Escobar A.K.A. Dr. Lfnt
+	Contact: argenis [at] disainco.com - Dr.Lfnt [at] gmail.com
+	Twitter: @DrLfnt
+	From: Mexico city, Mexico
+
+  UX & UI Designer: Rafael Ramirez Alanis
+  Contact: rafael [at] disainco.com - ramirezskulldesign [at] gmail.com 
+  Twitter: @elorden13
+  From: Metepec, Mexico
+
+/* SITE */
+	Last update: 20/10/2015
+	Language: Español
+	Standars: HTML5, CSS3, JavaScript, PHP
+	Components: Responsive Design
+	Software: OS X Mountain Lion, Windows 7, Windows 8, Windows 10, Sublime Text 2, CSS Edit, Filezilla, Adobe Creative Cloud (Ilustrator CC - Photoshop CC - Dreamweaver CC - Edge CC)
+	Resources: normalize.css | font-awesome.css | modernizr.js | bootstrap.css

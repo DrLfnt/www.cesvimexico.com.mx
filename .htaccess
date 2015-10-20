@@ -22,14 +22,3 @@ Header set Cache-Control "max-age=60, private, proxy-revalidate"
 <Files ~ "^\.(htaccess|htpasswd)$">
 deny from all
 </Files>
-
-Options All -Indexes
-
-ErrorDocument 400 400.shtml
-ErrorDocument 401 401.shtml
-ErrorDocument 403 403.shtml
-ErrorDocument 404 404.shtml
-ErrorDocument 408 408.shtml
-ErrorDocument 500 500.shtml
-ErrorDocument 503 503.shtml
-ErrorDocument 504 504.shtml
