@@ -185,17 +185,21 @@
 				<a href="index.html"><img class="imgLogoSVG zoom" src="images/CESVI-MEXICO-Logotipo.png" alt="Cesvi México Logotipo"></a>
 			</center>
 		</div>
-		<div class="col-md-6">
+		<div class="col-md-5">
 			<center>
 				<h2 class="sloganH2">
 					<span class="sloganSpan333">Nuestro trabajo es</span><br /><span class="sloganSpan111">Salvar tu vida</span>
 				</h2>
 			</center>
 		</div>
-		<div class="col-md-3">
+		<div class="col-md-4">
 			<center>
 				<img src="images/revista_home.jpg" alt="Revista Cesvi" class="mt8px">
-				<h5 class="pull-right fsDot80em"><br /><span class="c002F86">REVISTA CESVI MÉXICO</span><br /><span class="fszfwbolder">Edición Agosto</span><br /><br /><br /><span><a class="c002F86" href="http://cesvimexico.com.mx/revista/cesvi40.pdf" target="_blank">Descarga aquí</a></span></h5>
+				<h5 class="pull-right fsDot80em"><br />
+					<span class="c002F86">REVISTA CESVI MÉXICO</span><br />
+					<span class="fszfwbolder">Edición Agosto</span><br /><br /><br />
+					<span><a class="c002F86" href="http://cesvimexico.com.mx/revista/cesvi40.pdf" target="_blank">Descarga aquí</a></span>
+				</h5>
 			</center>
 		</div>
 		<div class="col-md-3">
