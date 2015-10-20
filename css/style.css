@@ -1574,6 +1574,9 @@ shortcodes page css
 
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 768px) {
+  .navbar-fixed-top .navbar-collapse {
+    max-height: 380px !important;
+  }
   .carousel {
     height: 400px;
     margin-bottom: 60px;
