@@ -346,9 +346,6 @@ body {
 section div div div ul li a {
   color: #555 !important;
 }
-.borderNone {
-  border: none;
-}
 .imagenCarousel1 {
   background-image: url(../images/bg1.jpg);
   background-size: cover;
@@ -587,73 +584,6 @@ a:hover, a:focus {
   border: 3px solid #F1CE1D;
 }
 
-#recent-works .col-xs-12.col-sm-4.col-md-3{
-  padding: 0;
-}
-
-#recent-works{
-    padding-bottom: 70px;
-}
-
-.recent-work-wrap {
-  position: relative;
-}
-
-.recent-work-wrap img{
-  width: 100%;
-}
-
-.recent-work-wrap .recent-work-inner{
-  top: 0;
-  background: transparent;
-  opacity: .8;
-  width: 100%;
-  border-radius: 0;
-  margin-bottom: 0;
-}
-
-.recent-work-wrap .recent-work-inner h3{
-  margin: 10px 0;
-}
-
-.recent-work-wrap .recent-work-inner h3 a{
-  font-size: 24px;
-  color: #fff;
-}
-
-.recent-work-wrap .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  border-radius: 0;
-  background: #F1CE1D;
-  color: #fff;
-  vertical-align: middle;
-  -webkit-transition: opacity 500ms;
-  -moz-transition: opacity 500ms;
-  -o-transition: opacity 500ms;
-  transition: opacity 500ms;  
-  padding: 30px;
-}
-
-.recent-work-wrap .overlay .preview {
-  bottom: 0;
-  display: inline-block;
-  height: 35px;
-  line-height: 35px;
-  border-radius: 0;
-  background: transparent;
-  text-align: center;
-  color: #fff;
-}
-
-.recent-work-wrap:hover .overlay {
-  opacity: 1;
-}
-
 #services {
   background: #000 url(../images/slider/bg1.jpg) no-repeat center center fixed;
   background-size: cover;
@@ -683,100 +613,6 @@ a:hover, a:focus {
 #middle {
   background: #f2f2f2;
 }
-
-.skill h2{
-  margin-bottom: 25px;
-}
-
-.progress-wrap{
-  position: relative;
-}
-
-.progress .color1,
-.progress .color1 .bar-width{
-  background: #2d7da4;
-}
-
-.progress .color2,
-.progress .color2 .bar-width{
-  background: #6aa42f;
-}
-
-.progress .color3,
-.progress .color3 .bar-width{
-  background: #ffcc33;
-}
-
-.progress .color4,
-.progress .color4 .bar-width{
-  background: #db3615;
-}
-
-.progress, 
-.progress-bar {
-  height: 15px;
-  line-height: 15px;
-  background: #e6e6e6;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-  border-radius: 0;
-  overflow: visible;
-  text-align: right;
-}
-
-.progress{
-  position: relative;
-}
-
-.progress .bar-width{
-  position: absolute;
-  width: 40px;
-  height: 20px;
-  line-height: 20px;
-  text-align: center;
-  font-size: 12px;
-  font-weight: 700;
-  top: -30px;
-  border-radius: 2px;
-  margin-left: -30px;
-}
-
-.progress span{
-  position: relative;
-}
-
-.progress span:before{
-  content: " ";
-  position: absolute;
-  width: auto;
-  height: auto;
-  border-width: 8px 5px;
-  border-style: solid;
-  bottom: -15px;
-  right: 8px;
-}
-
-.progress .color1 span:before{
-  border-color: #2d7da4 transparent transparent transparent;
-}
-
-.progress .color2 span:before{
-  border-color: #6aa42f transparent transparent transparent;
-}
-
-.progress .color3 span:before{
-  border-color: #ffcc33 transparent transparent transparent;
-}
-
-.progress .color4 span:before{
-  border-color: #db3615 transparent transparent transparent;
-}
-
-.accordion h2{
-  margin-bottom: 25px;
-}
-
 .panel-default{
   border-color: transparent;
 }

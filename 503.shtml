@@ -310,7 +310,7 @@
 		</nav>
 	</section>
 
-	<hr style="border:none;">
+	<hr class="borderNone">
 
 	<section id="CONTENIDO" class="container">
 		<div class="row">
