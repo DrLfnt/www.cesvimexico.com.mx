@@ -303,6 +303,10 @@ body {
   border-left: 3px solid #fbe791;
   border-right: 3px solid #fbe791;
 }
+.atencionTelefonica-xs-sm {
+  font-size: 1.45em;
+  font-weight: bold;
+}
 
 /* otro css */
 
