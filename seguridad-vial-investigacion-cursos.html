@@ -5,7 +5,7 @@
 	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
 	<meta name="theme-color" content="#e8cd3a" />
 	<meta http-equiv="refresh" content="1600" />
-	<meta name="author" content="Rafael Ramírez | Argenis Oldair Palacios @DrLfnt" />
+	<!--<meta name="author" content="Rafael Ramírez | Argenis Oldair Palacios @DrLfnt" />-->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<meta http-equiv="cleartype" content="on" />
 	<!--[if IEMobile]>  <meta http-equiv="cleartype" content="on" />  <![endif]-->
