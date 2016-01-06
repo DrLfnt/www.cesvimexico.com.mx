@@ -60,6 +60,17 @@
 	// iOS viewport scaling bug fix, by @mathias, @cheeaun and @jdalton
 	(function(doc){var addEvent='addEventListener',type='gesturestart',qsa='querySelectorAll',scales=[1,1],meta=qsa in doc?doc[qsa]('meta[name=viewport]'):[];function fix(){meta.content='width=device-width,minimum-scale='+scales[0]+',maximum-scale='+scales[1];doc.removeEventListener(type,fix,true);}if((meta=meta[meta.length-1])&&addEvent in doc){fix();scales=[.25,1.6];doc[addEvent](type,fix,true);}}(document));
 	</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ 
+  ga('create', 'UA-71255087-1', 'auto');
+  ga('send', 'pageview');
+ 
+</script>
+
 </head>
 <body class="oswald">
 
@@ -199,7 +210,7 @@
 				<h5 class="pull-right fsDot80em"><br />
 					<span class="c002F86">REVISTA CESVI MÉXICO</span><br />
 					<span class="fszfwbolder">Edición Agosto</span><br /><br /><br />
-					<span><a class="c002F86" href="http://cesvimexico.com.mx/revista/cesvi40.pdf" target="_blank">Descarga aquí</a></span>
+					<span><a class="c002F86" href="http://cesvimexico.com.mx/revista/cesvi41.pdf" target="_blank">Descarga aquí</a></span>
 				</h5>
 			</center>
 		</div>
@@ -238,7 +249,7 @@
 					<br />
 					<span class="fszfwbolder">Edición Agosto</span>
 					<br /><br /><br />
-					<span><a class="c002F86" href="http://cesvimexico.com.mx/revista/cesvi40.pdf" target="_blank">Descarga aquí</a></span>
+					<span><a class="c002F86" href="http://cesvimexico.com.mx/revista/cesvi41.pdf" target="_blank">Descarga aquí</a></span>
 				</h5>
 				<br />
 			</center>
