@@ -209,8 +209,13 @@
 				<img src="images/revista_home.jpg" alt="Revista Cesvi" class="mt8px">
 				<h5 class="pull-right fsDot80em"><br />
 					<span class="c002F86">REVISTA CESVI MÉXICO</span><br />
+<<<<<<< HEAD
 					<span class="fszfwbolder">Edición Diciembre</span><br /><br /><br />
 					<span><a class="c002F86" href="http://cesvimexico.com.mx/revista/cesvi42.pdf" target="_blank">Descarga aquí</a></span>
+=======
+					<span class="fszfwbolder">Edición Agosto</span><br /><br /><br />
+					<span><a class="c002F86" href="http://cesvimexico.com.mx/revista/cesvi41.pdf" target="_blank">Descarga aquí</a></span>
+>>>>>>> origin/master
 				</h5>
 			</center>
 		</div>
@@ -249,7 +254,11 @@
 					<br />
 					<span class="fszfwbolder">Edición Diciembre</span>
 					<br /><br /><br />
+<<<<<<< HEAD
 					<span><a class="c002F86" href="http://cesvimexico.com.mx/revista/cesvi42.pdf" target="_blank">Descarga aquí</a></span>
+=======
+					<span><a class="c002F86" href="http://cesvimexico.com.mx/revista/cesvi41.pdf" target="_blank">Descarga aquí</a></span>
+>>>>>>> origin/master
 				</h5>
 				<br />
 			</center>
